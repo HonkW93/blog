@@ -1,0 +1,370 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clock Domain Crossing | Doraemon</title><meta name="description" content="CDC Problem"><meta name="keywords" content="ic,cdc"><meta name="author" content="HonkW"><meta name="copyright" content="HonkW"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/doreamon.ico"><link rel="canonical" href="https://honk.wang/posts/Clock-Domain-Crossing-Problem/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="google464c10a523d2ba77.html"/><meta property="og:type" content="article"><meta property="og:title" content="Clock Domain Crossing"><meta property="og:url" content="https://honk.wang/posts/Clock-Domain-Crossing-Problem/"><meta property="og:site_name" content="Doraemon"><meta property="og:description" content="CDC Problem"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/cdc.png"><meta property="article:published_time" content="2020-03-16T16:31:34.000Z"><meta property="article:modified_time" content="2020-08-07T11:54:57.548Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-08-07 19:54:57'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/volantis/volantistags.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/back-ground/font-awesome-animation.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/back-ground/heartbeat.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/back-ground/background.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/back-ground/note.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/flink.min.css"><meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="Doraemon" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">12</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">12</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home faa-shake animated-hover"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messages/"><i class="fa-fw far fa-comment-dots faa-shake animated-hover"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-file-alt faa-horizontal animated-hover"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/statistics/"><i class="fa-fw fas fa-chart-line"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-icons faa-flash animated-hover"></i><span> 生活</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/home/"><i class="fa-fw fas fa-globe"></i><span> 主页</span></a></li><li><a class="site-page" href="/photo/"><i class="fa-fw fas fa-image"></i><span> 相册</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-headphones"></i><span> 音乐</span></a></li><li><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-heartbeat faa-pulse animated faa-fast"></i><span> 说说</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://honkw-janer.vercel.app/"><i class="fa-fw fas fa-book faa-shake animated"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw far fa-user-circle faa-spin animated-hover"></i><span> 关于</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw far fa-address-book"></i><span> 自己</span></a></li><li><a class="site-page" href="/timeline/"><i class="fa-fw fas fa-history faa-spin animated"></i><span> 历史</span></a></li><li><a class="site-page" href="/cv/"><i class="fa-fw far fa-id-card"></i><span> CV</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-wrench faa-wrench animated-hover"></i><span> 工具</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://honk-wang.avosapps.us/"><i class="fa-fw fas fa-comments"></i><span> 评论</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/box"><i class="fa-fw fas fa-paper-plane"></i><span> 导航</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/IC"><i class="fa-fw fas fa-microchip"></i><span> IC-Nav</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/posts/ic-wechat-link/"><i class="fa-fw fas fa-list-ol"></i><span> IC-List</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-gamepad faa-tada animated-hover"></i><span> 游戏</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/2048"><i class="fa-fw far fa-plus-square"></i><span> 2048</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/cuber"><i class="fa-fw fas fa-cube"></i><span> 魔方</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/pacman"><i class="fa-fw far fa-dot-circle"></i><span> 吃豆</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://dx-ball.ru/"><i class="fa-fw fas fa-square"></i><span> 打砖</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://vim-adventures.com/"><i class="fa-fw fas fa-pencil-alt"></i><span> Vim</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://learngitbranching.js.org/"><i class="fa-fw fas fa-code-branch"></i><span> Git</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%BC%95%E8%A8%80font"><span class="toc-number">1.</span> <span class="toc-text"> 引言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E8%B7%A8%E6%97%B6%E9%92%9F%E5%9F%9F%E4%B8%BB%E8%A6%81%E9%97%AE%E9%A2%98font"><span class="toc-number">2.</span> <span class="toc-text"> 跨时钟域主要问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%8D%95bit-%E4%BA%9A%E7%A8%B3%E6%80%81font"><span class="toc-number">2.1.</span> <span class="toc-text"> 单bit-亚稳态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%8D%95bit-%E6%95%B0%E6%8D%AE%E4%B8%A2%E5%A4%B1font"><span class="toc-number">2.2.</span> <span class="toc-text"> 单bit-数据丢失</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%A4%9Abit-%E6%95%B0%E6%8D%AE%E6%94%B6%E6%95%9B%E5%92%8C%E5%A4%9A%E8%B7%AF%E6%89%87%E5%87%BAfont"><span class="toc-number">2.3.</span> <span class="toc-text"> 多bit-数据收敛和多路扇出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E6%95%B0%E6%8D%AE%E6%94%B6%E6%95%9B-2bit%E5%90%8C%E6%97%B6%E5%8F%98%E5%8C%96%E7%9A%84%E4%BF%A1%E5%8F%B7font"><span class="toc-number">2.3.1.</span> <span class="toc-text"> 数据收敛-2bit同时变化的信号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E6%95%B0%E6%8D%AE%E6%94%B6%E6%95%9B-2bit%E6%9C%89%E7%9B%B8%E4%BD%8D%E5%B7%AE%E7%9A%84%E4%BF%A1%E5%8F%B7font"><span class="toc-number">2.3.2.</span> <span class="toc-text"> 数据收敛-2bit有相位差的信号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%A4%9A%E8%B7%AF%E6%89%87%E5%87%BA-2bit%E7%BC%96%E7%A0%81%E4%BF%A1%E5%8F%B7font"><span class="toc-number">2.3.3.</span> <span class="toc-text"> 多路扇出-2bit编码信号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%A4%9Abit%E4%BF%A1%E5%8F%B7-%E7%BB%BC%E5%90%88%E9%97%AE%E9%A2%98font"><span class="toc-number">2.3.4.</span> <span class="toc-text"> 多bit信号-综合问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E6%8F%A1%E6%89%8B%E5%8D%8F%E8%AE%AEfont"><span class="toc-number">2.3.4.1.</span> <span class="toc-text"> 握手协议</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%BC%82%E6%AD%A5fifofont"><span class="toc-number">2.3.4.2.</span> <span class="toc-text"> 异步fifo</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%8D%95bit-%E5%BC%82%E6%AD%A5%E5%A4%8D%E4%BD%8Dfont"><span class="toc-number">2.4.</span> <span class="toc-text"> 单bit-异步复位</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E7%BB%93%E8%AF%ADfont"><span class="toc-number">3.</span> <span class="toc-text"> 结语</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#font-color-b5d5ff-stylefont-weightbold%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99font"><span class="toc-number">4.</span> <span class="toc-text"> 参考资料</span></a></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/cdc.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Doraemon</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home faa-shake animated-hover"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messages/"><i class="fa-fw far fa-comment-dots faa-shake animated-hover"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-file-alt faa-horizontal animated-hover"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/statistics/"><i class="fa-fw fas fa-chart-line"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-icons faa-flash animated-hover"></i><span> 生活</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/home/"><i class="fa-fw fas fa-globe"></i><span> 主页</span></a></li><li><a class="site-page" href="/photo/"><i class="fa-fw fas fa-image"></i><span> 相册</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-headphones"></i><span> 音乐</span></a></li><li><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-heartbeat faa-pulse animated faa-fast"></i><span> 说说</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://honkw-janer.vercel.app/"><i class="fa-fw fas fa-book faa-shake animated"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw far fa-user-circle faa-spin animated-hover"></i><span> 关于</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw far fa-address-book"></i><span> 自己</span></a></li><li><a class="site-page" href="/timeline/"><i class="fa-fw fas fa-history faa-spin animated"></i><span> 历史</span></a></li><li><a class="site-page" href="/cv/"><i class="fa-fw far fa-id-card"></i><span> CV</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-wrench faa-wrench animated-hover"></i><span> 工具</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://honk-wang.avosapps.us/"><i class="fa-fw fas fa-comments"></i><span> 评论</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/box"><i class="fa-fw fas fa-paper-plane"></i><span> 导航</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/IC"><i class="fa-fw fas fa-microchip"></i><span> IC-Nav</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/posts/ic-wechat-link/"><i class="fa-fw fas fa-list-ol"></i><span> IC-List</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-gamepad faa-tada animated-hover"></i><span> 游戏</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/2048"><i class="fa-fw far fa-plus-square"></i><span> 2048</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/cuber"><i class="fa-fw fas fa-cube"></i><span> 魔方</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://2p59nw.coding-pages.com/pacman"><i class="fa-fw far fa-dot-circle"></i><span> 吃豆</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://dx-ball.ru/"><i class="fa-fw fas fa-square"></i><span> 打砖</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://vim-adventures.com/"><i class="fa-fw fas fa-pencil-alt"></i><span> Vim</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://learngitbranching.js.org/"><i class="fa-fw fas fa-code-branch"></i><span> Git</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">Clock Domain Crossing</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-03-16T16:31:34.000Z" title="发表于 2020-03-17 00:31:34">2020-03-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-08-07T11:54:57.548Z" title="更新于 2020-08-07 19:54:57">2020-08-07</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/ic/">ic</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/ic/design/">design</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">5.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>16分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/Clock-Domain-Crossing-Problem/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/posts/Clock-Domain-Crossing-Problem/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><blockquote>
+<p>全文分析较长，嫌麻烦直接翻到底看结论。</p>
+</blockquote>
+<h1 id="font-color-b5d5ff-stylefont-weightbold引言font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold引言font"></a> <font color= #b5d5ff style='font-weight:bold'>引言</font></h1>
+<p>在各种条件下（<b><font color= red>温度、压力、震动等</font></b>）电路可能出现偶发性故障，解决难度较大，要减少数字系统中的这种问题，即要保障电路最大程度的可靠性。时序电路中的这种不稳定的状态即称为<b><font color= red>亚稳态</font></b>。</p>
+<p>时序电路中的触发器需要满足<b><font color= red>建立时间</font></b>和<b><font color= red>保持时间</font></b>的要求，才能满足电路稳定工作的时序要求。</p>
+<blockquote>
+<p>建立时间：在有效时钟沿到来之前，输入端信号需要保持稳定不变的最小时间。<br />
+保持时间：在有效时钟沿到来之后，输入端信号需要保持稳定不变的最小时间。</p>
+</blockquote>
+<p><font color= #green  >如何分析建立时间和保持时间呢？</font>这里得从数电基础来分析一下。下面上D触发器的图。图源<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%EF%BC%88%E7%AC%AC5%E7%89%88%EF%BC%89/5250042?fr=aladdin">数字电子技术基础第5版</a></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/Dflipflop.jpg" alt="d触发器" /></p>
+<p>在CLK上升沿到来之前，CLK=0，G1和G2门的前端会被锁住，Q和Q’保持不变。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/Dflipflop_keep.jpg" alt="d触发器" /></p>
+<p>因为D端的数据变化经过G6和G5后会控制G3和G4的输出，因此在CLK上升沿到来之前，需要保持G5和G6的输出稳定，这样才能保证G3和G4能够正确输出，实现D值传递到Q的效果。因此在CLK上升沿到来之前，D的变化在G5和G6的传递必须完成。所以其建立时间必须t<sub>set</sub>≥2t<sub>pd</sub>（t<sub>pd</sub>为一个与门的信号延迟时间）。</p>
+<p>因为CLK端的数据变化经过G4后会控制G6的输出，因此D的变化不能在G4变化的时候进行，在CLK上升沿到来之后，D必须保持不变直到G4的输出完成。所以其保持时间必须t<sub>hold</sub>≥t<sub>pd</sub>。其电平转换如下。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/Dflipflop_time.jpg" alt="d触发器跳转" /></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/dffjump.gif" alt="d触发器跳转" /></p>
+<p>以上只是举个例子，实际触发器电路可能不完全等同于此。另外实际情况下各个门电路延迟也并不相同，并且电路本身延迟也不完全一致。总而言之，触发器的<b><font color= red >建立和保持时间取决于生产工艺</font></b>，由工艺厂商决定。</p>
+<p>由上述分析可知，若时序不能满足建立时间和保持时间要求，输出端值会呈现未知状态，电路进入亚稳态。</p>
+<h1 id="font-color-b5d5ff-stylefont-weightbold跨时钟域主要问题font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold跨时钟域主要问题font"></a> <font color= #b5d5ff style='font-weight:bold'>跨时钟域主要问题</font></h1>
+<p>最好的解决亚稳态的方法就是使用同步设计，同步设计可以通过STA（静态时序分析）来解决时序问题。但实际上绝大部分的ASIC设计是由多个异步的时钟驱动的，因此多时钟的设计里就需要对跨时钟域的信号、数据进行特殊操作来保障电路的稳定性。</p>
+<p><font color= #green  >跨时钟域（Clock Domain Crossing，CDC）</font>问题主要有以下几种：</p>
+<ol>
+<li>
+<p>亚稳态</p>
+<p>确保亚稳态对系统<b><font color= red >不产生错误影响</font></b>。</p>
+</li>
+<li>
+<p>数据丢失</p>
+<p>确保信号由<b><font color= red >快速时钟域向慢速时钟域传播</font></b>时能被正确捕捉。</p>
+</li>
+<li>
+<p>数据收敛及多路扇出</p>
+<p>确保<b><font color= red >一组相关联的同步信号在经过不同的路径</font></b>之后可以在某一个相同的时钟周期正确的到达另一个时钟域。确保在<b><font color= red >一个信号在跨时钟域出现多路扇出时</font></b>，后续逻辑得到相同的值。</p>
+</li>
+<li>
+<p>异步复位</p>
+<p>确保<b><font color= red >异步复位释放</font></b>时不导致电路出现亚稳态。</p>
+</li>
+</ol>
+<p>下面分别介绍各个问题及其实际解决方法。</p>
+<h2 id="font-color-b5d5ff-stylefont-weightbold单bit-亚稳态font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold单bit-亚稳态font"></a> <font color= #b5d5ff style='font-weight:bold'>单bit-亚稳态</font></h2>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc3.png" alt="亚稳态" /></p>
+<p>如上图，当信号adat由A时钟域进入B时钟域时，由于信号adat的时钟域和B的时钟域存在频率差和相位差，<b><font color= red >信号adat可能会在B时钟沿跳变时发生变化</font></b>（从而不能满足建立时间和保持时间要求），从而出现亚稳态。此时bdat1值可能为1，也可能为0，并且可能到下一次B时钟的上升沿到来时这个不稳定状态仍然没有恢复，这样进入亚稳态的信号bdat1就会<b><font color= red >传播</font></b>到下一级电路去。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc4.png" alt="亚稳态" /></p>
+<p>解决这类问题的办法是使用同步器，也就是常说的<b><font color= red >打两拍（Double Flip-Flops）</font></b>，即对进入时钟域B的信号经过两级触发器的同步后再使用该信号。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc5.png" alt="亚稳态" /></p>
+<p>由上图，打了两拍之后，对于进入亚稳态的bdat1来说，在下一个时钟沿到来的时候，他的<b><font color= red >不稳定值（0或1）</font></b>会被第二级触发器捕捉到，从而bdat2会有一个<b><font color= red >稳定的输出（0或1）</font></b>，从而<b><font color= red >避免</font></b>了亚稳态的进一步传播。注意，此方法只能避免亚稳态传播，并不保证出现亚稳态时后续电路的结果正确。就像上图中如果bdat1稳定值为0，则bdat2就会继续保持为0，从而两种情况下的输出结果完全不同，可能会影响后端电路。</p>
+<p><font color= #green  >那是不是打两拍后数据就不存在亚稳态问题了呢？</font><b><font color= red >并不是。</font></b>因为实际情况下bdat1的亚稳态持续时间是有可能持续到第二个时钟沿到来时刻的，即第二个图里的样子。亚稳态的持续时间与触发器的恢复能力有关。</p>
+<p>因此在跨两个时钟域的时候是否出现亚稳态情况其实是一个<b><font color= red >概率问题</font></b>，可以想得到的是，这个出现概率与两个时钟的频率（频率越高数据越有可能撞上触发器边沿）、触发器的恢复能力等参数有关。概率分析的部分可以见参考资料<sup>[5]</sup>以及参考资料<sup>[6]</sup> <a target="_blank" rel="noopener" href="https://www.zhihu.com/answer/95940354">跨时钟域同步，为什么两级寄存器结构能够降低亚稳态？</a>的分析，其主要分析参数为MTBF（Mean Time Between Failures，平均故障间隔时间）。其结论是：在一般情况下（典型参数见上述资料），对于绝大多数设计来说，<b><font color= red >打两拍可以将亚稳态控制在可以接受的范围内</font></b>。</p>
+<p>同步器代码如下。</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> synchronizer</span><br><span class="line">( </span><br><span class="line">    <span class="keyword">input</span>                   clkb                    ,       </span><br><span class="line">    <span class="keyword">input</span>                   rst                     ,       </span><br><span class="line">    <span class="keyword">input</span>                   adat                    ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">wire</span>            bdat2                          </span><br><span class="line">);</span><br><span class="line">    <span class="keyword">reg</span>[<span class="number">1</span>:<span class="number">0</span>]                bdat                    ;       </span><br><span class="line"></span><br><span class="line">    <span class="keyword">always</span>@(<span class="keyword">posedge</span> clkb <span class="keyword">or</span> <span class="keyword">posedge</span> rst)<span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span>(rst==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">            bdat &lt;= <span class="number">0</span>;            </span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">            bdat &lt;= &#123;bdat[<span class="number">0</span>],adat&#125;;</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">assign</span> bdat2 = bdat[<span class="number">1</span>]; </span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+<p>为有效避免跨时钟域带来的亚稳态问题，规范的设计要求</p>
+<ol>
+<li>
+<p>每个独立模块只使用一个时钟；</p>
+</li>
+<li>
+<p>不同时钟域的模块间如果需要信号交互，必须使用同步器进行同步。；</p>
+</li>
+<li>
+<p>对系统进行STA（静态时序分析），MIN-MAX Timing Analysis</p>
+</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc6.png" alt="亚稳态" /></p>
+<h2 id="font-color-b5d5ff-stylefont-weightbold单bit-数据丢失font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold单bit-数据丢失font"></a> <font color= #b5d5ff style='font-weight:bold'>单bit-数据丢失</font></h2>
+<p>如果数据从快的时钟域进入慢的时钟域，则可能会因为快时钟域的信号<b><font color= red >持续时间过短</font></b>导致慢时钟域的时钟<b><font color= red >无法捕获到该信号</font></b>从而导致数据丢失。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc7.png" alt="亚稳态" /></p>
+<p>还是上一节的那个电路，按照上图所示时序，在B时钟域的两次上升沿之间，adat持续了一个A时钟域的周期，但是B时钟域无法捕获到该信号，导致数据无法在B时钟域传递下去。解决这种问题最直观的想法就是<b><font color= red >延长</font></b>adat信号<b><font color= red >至少一个bclk的周期</font></b>，使得bclk能够捕获到他，如下图。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc8.png" alt="亚稳态" /></p>
+<p><font color= #green  >那是不是只要延时就行呢？</font><b><font color= red >并不是。</font></b>注意到因为adat的持续周期大于bclk的周期，这种方法bclk端可能采集到1次adat信号，也可能采集到2次，因此bdat的持续时间是不可控的。所以一般来说还有一种方法，即<b><font color= red >通过控制信号进行同步反馈</font></b>。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc9.png" alt="亚稳态" /></p>
+<p>信号传递如上图所示，adat信号先置高，但暂时不拉低，什么时候拉低呢？等到B时钟域的反馈信号回来之后再拉低。由于跨时钟域，因此在adat1进入B时钟域和反馈信号bdat2进入A时钟域的时候，均打两拍处理亚稳态问题。知道在A时钟域收到反馈信号abdat2后，adat再拉低，bdat2会在之后跟随拉低。这是一种<b><font color= red >比较保险</font></b>的办法，但进行<b><font color= red >同步需要很长的延迟时间</font></b>。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc10.png" alt="亚稳态" /></p>
+<p>代码如下。</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> synchronizer_aclk</span><br><span class="line">( </span><br><span class="line">    <span class="keyword">input</span>                   aclk                    ,       </span><br><span class="line">    <span class="keyword">input</span>                   rst                     ,       </span><br><span class="line">    <span class="keyword">input</span>                   bdat2                   ,       </span><br><span class="line">    <span class="keyword">input</span>                   a                       ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">reg</span>             adat                    ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">reg</span>             adat1                          </span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">reg</span>                     abdat1                  ;       </span><br><span class="line">    <span class="keyword">reg</span>                     abdat2                  ;       </span><br><span class="line"> </span><br><span class="line">    <span class="keyword">always</span>@(<span class="keyword">posedge</span> aclk <span class="keyword">or</span> <span class="keyword">posedge</span> rst)<span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span>(rst==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">            adat &lt;= <span class="number">0</span>;     </span><br><span class="line">            adat1 &lt;= <span class="number">0</span>;     </span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">            adat1 &lt;= adat;</span><br><span class="line">            <span class="keyword">if</span>(a==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">                adat &lt;= <span class="number">1</span>; </span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(abdat2==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">                adat &lt;= <span class="number">1&#x27;b0</span>;     </span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">                adat &lt;= adat;</span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">always</span>@(<span class="keyword">posedge</span> aclk <span class="keyword">or</span> <span class="keyword">posedge</span> rst)<span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span>(rst==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">            abdat1 &lt;= <span class="number">0</span>; </span><br><span class="line">            abdat2 &lt;= <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">            abdat1 &lt;= bdat2; </span><br><span class="line">            abdat2 &lt;= abdat1;</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> synchronizer_bclk</span><br><span class="line">( </span><br><span class="line">    <span class="keyword">input</span>                   bclk                    ,       </span><br><span class="line">    <span class="keyword">input</span>                   rst                     ,       </span><br><span class="line">    <span class="keyword">input</span>                   adat1                   ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">reg</span>             bdat2                          </span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">reg</span>                     bdat1                   ;       </span><br><span class="line"></span><br><span class="line">    <span class="keyword">always</span>@(<span class="keyword">posedge</span> bclk <span class="keyword">or</span> <span class="keyword">posedge</span> rst)<span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span>(rst==<span class="number">1&#x27;b1</span>)<span class="keyword">begin</span></span><br><span class="line">            bdat1 &lt;= <span class="number">0</span>;</span><br><span class="line">            bdat2 &lt;= <span class="number">0</span>; </span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">            bdat1 &lt;= adat1;</span><br><span class="line">            bdat2 &lt;= bdat1; </span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+<h2 id="font-color-b5d5ff-stylefont-weightbold多bit-数据收敛和多路扇出font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold多bit-数据收敛和多路扇出font"></a> <font color= #b5d5ff style='font-weight:bold'>多bit-数据收敛和多路扇出</font></h2>
+<p>数据收敛问题情况较多，主要原因都是因为跨时钟域的一组相关联的信号在跨时钟域时因为传播的<b><font color= red >延时路径不同的误差</font></b>导致进入另一个时钟域时出现的误码问题。下面分多种情况讨论一下并介绍解决方法。</p>
+<h3 id="font-color-b5d5ff-stylefont-weightbold数据收敛-2bit同时变化的信号font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold数据收敛-2bit同时变化的信号font"></a> <font color= #b5d5ff style='font-weight:bold'>数据收敛-2bit同时变化的信号</font></h3>
+<p>如下图，A时钟域的触发器A需要a_load和a_en两个信号同时为1才能触发adata加载到abus，而这两个信号b_load和b_en均来自另一个时钟域B。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc11.png" alt="亚稳态" /></p>
+<p>当b_load和b_en跨时钟域传递时存在小的误差延时，而这个误差延迟正好被aclk捕捉到，这样会最终导致a_en比a_load信号晚一拍出来。从而在A时钟域，这两个信号不会同时出现，因此adata也就不会被加载到abus端。</p>
+<p>解决这个问题的办法就是很自然就是<b><font color= red >跨时钟域只传递一个使能</font></b>即可，传递过来同步之后再进行信号分配，如下图所示。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc12.png" alt="亚稳态" /></p>
+<h3 id="font-color-b5d5ff-stylefont-weightbold数据收敛-2bit有相位差的信号font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold数据收敛-2bit有相位差的信号font"></a> <font color= #b5d5ff style='font-weight:bold'>数据收敛-2bit有相位差的信号</font></h3>
+<p>如下图，A时钟域的触发器A需要两拍aen1和aen2分别加载数据a1到a2，然后a2到a3，而这两个信号ben1和ben2均来自另一个时钟域B。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc13.png" alt="亚稳态" /></p>
+<p>当ben1和ben2跨时钟域传递时存在小的误差延时，而在A时钟域，这个误差延迟正好被aclk捕捉到，这两个信号aen1和aen2就会相差一整个时钟周期，最终导致a2端能加载而到a3却不能。</p>
+<p>解决这个问题的办法，同样很自然就是<b><font color= red >跨时钟域只传递一个使能</font></b>，传递过来同步之后再对信号打拍，如下图所示。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc14.png" alt="亚稳态" /></p>
+<h3 id="font-color-b5d5ff-stylefont-weightbold多路扇出-2bit编码信号font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold多路扇出-2bit编码信号font"></a> <font color= #b5d5ff style='font-weight:bold'>多路扇出-2bit编码信号</font></h3>
+<p>如下图，A时钟域的2-4译码器需要对adec[1]和adec[0]编码信号进行解码，而这两个信号的来源bdec[1]和bdec[0]均来自另一个时钟域B。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc15.png" alt="亚稳态" /></p>
+<p>当ben[1]和ben[2]跨时钟域传递时存在小的误差延时，而在A时钟域，这个误差延迟正好被aclk捕捉到，这两个信号aen[1]和aen[2]就会相差一整个时钟周期，最终导致译码结果会有一个周期异常。</p>
+<p>解决这个问题的办法，就不能跨时钟域只用一个使能信号了。因为两位信号为编码（数据）信号而不再是简单的控制信号，逻辑功能已经不同。而其解决办法其实有两种：</p>
+<ol>
+<li>
+<p><b><font color= red >给A和B跨时钟域添加一个单独的控制使能信号来控制编码信号传输</font></b></p>
+<p>即保证在A时钟域，<b><font color= red >控制信号只在a_dec[1]和a_dec[0]稳定的情况下有效</font></b>，这样就需要几个条件：</p>
+<ol>
+<li>
+<p>控制信号在b时钟域要在编码信号b_dec[1]和b_dec[0]变化开始后一个clkb后再变化</p>
+</li>
+<li>
+<p>控制信号在b时钟域要在编码信号b_dec[1]和b_dec[0]变化结束前一个clkb先结束</p>
+</li>
+<li>
+<p>控制信号的持续时间必须大于一整个clka周期</p>
+<p>这样其实就需要对两个时钟频率即相位控制进行比较清晰的分析才能实现。</p>
+</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc16.png" alt="亚稳态" /></p>
+</li>
+<li>
+<p><b><font color= red >在B时钟域先进行2-4编码（即转换为独热码），然后在A时钟域通过状态机过滤掉异常的编码值</font></b>（即不是独热码的值）</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc17.png" alt="亚稳态" /></p>
+<p>当然跟前一种方法一样，独热码的信号持续时间必须大于一整个clka周期，以便被clka捕捉到。</p>
+</li>
+</ol>
+<h3 id="font-color-b5d5ff-stylefont-weightbold多bit信号-综合问题font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold多bit信号-综合问题font"></a> <font color= #b5d5ff style='font-weight:bold'>多bit信号-综合问题</font></h3>
+<p>其实之前讨论的三种情况都可以总结为相同的思路。</p>
+<ol>
+<li>
+<p><b><font color= red >找到问题点，即数据发生变化且被另一个时钟域捕获的瞬间</font></b></p>
+</li>
+<li>
+<p><b><font color= red >将多bit跨时钟域信号想办法转换为单bit跨时钟域信号，然后通过门控、编解码等方法解决问题</font></b>。</p>
+</li>
+</ol>
+<p>但是这种解决办法可能对信号的持续时间，还有触发时间等有不同的要求，并且不同的问题需要进行不同的具体分析。<font color= #green  >那有没有通用的方法可以传递多位的信号呢？</font><b><font color= red >还真有。</font></b>下面介绍两种常用方法。</p>
+<h4 id="font-color-b5d5ff-stylefont-weightbold握手协议font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold握手协议font"></a> <font color= #b5d5ff style='font-weight:bold'>握手协议</font></h4>
+<p>总体思路其实与之前的思路一致，将多bit数据通过单bit控制信号来传递。</p>
+<ol>
+<li>
+<p>在需要传递一个data的时候，发送端时钟域A先将data放到总线上，然后输出一个data_valid信号；</p>
+</li>
+<li>
+<p>data_valid信号跨时钟域并经过处理后传递到接收端时钟域B；</p>
+</li>
+<li>
+<p>接收端时钟域B采集到这个data_valid信号之后，从总线上拿走data，再反馈acknowledge信号给原时钟域A；</p>
+</li>
+<li>
+<p>反馈的acknowledge信号跨时钟域并经过处理后传递到发送端时钟域A；</p>
+</li>
+<li>
+<p>发送端时钟域A再继续发送下一个数据。</p>
+</li>
+</ol>
+<p>总体结构为<b><font color= red >一次发送，一次返回</font></b>，结构图如下。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc18.png" alt="亚稳态" /></p>
+<p>这个结构也可以有其他变种：</p>
+<ol>
+<li>
+<p><b><font color= red >一次发送，两次返回</font></b></p>
+<p>为了更保险，在每次直到接收端发现data_valid拉低之后，再发送一个ready信号，而发送端时钟域A接受到ready之后再继续发送下一个数据。即acknowledge用于拉低data_valid信号，然后再用控制信号ready来表示收到data_valid拉低，并开始下一次数据发送。结构图如下。</p>
+</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc19.png" alt="亚稳态" /></p>
+<ol start="2">
+<li>
+<p><b><font color= red >两次发送，两次返回</font></b></p>
+<p>最保险的办法，就是发送端时钟域A发送data_valid信号，接收端返回acknowledge信号，发送端发送cancel_acknowledge信号，接收端返回cancel_finish信号。通过两次握手形成完整的同步机制。结构图如下。</p>
+</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc20.png" alt="亚稳态" /></p>
+<p>这几种结构进行数据交互的延迟时间依次增大，但是遇到跨时钟域问题的概率却依次降低，实际设计时应在评估后结合具体实例选取不同的方法。</p>
+<h4 id="font-color-b5d5ff-stylefont-weightbold异步fifofont"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold异步fifofont"></a> <font color= #b5d5ff style='font-weight:bold'>异步fifo</font></h4>
+<p>使用异步双口RAM，或异步FIFO，是一种非常方便的处理跨时钟域多bit数据传递的方法。发送端只需要根据自己时钟域A不断的把数据放进FIFO，接收端再根据自己时钟域B不断取数据即可，当然设计这种FIFO其实有一定难度。异步FIFO设计的主要难点就在于<b><font color= red >FIFO空信号（EMPTY）和FIFO满信号(FULL)</font></b>的操作。<font color= #green  >为什么呢？</font>因为空满信号是通过发送端的写地址和接收端的读地址进行对比来产生的。</p>
+<p>举个例子，假设我们设计一个深度为16的FIFO，其地址从0~15，那么FIFO满的时候就是写地址增加到15的时候，FIFO空的时候就是读地址减少到0的时候。但是地址的传递是多bit跨时钟域的，存在跨时钟域的问题，即可能多bit数据传递因为传播的<b><font color= red >延时路径不同的误差</font></b>存在误码可能。如果我们地址使用一般的二进制计数，假设我写地址在7的之后写入一个数据，写地址加1，即地址会从7（0111）跳到8(1000)（在发送端时钟域A），但是由于各bit信号的传递存在很小的误差延时，导致其跳转的中间状态可能被接收端时钟域B捕获到，形成异常的地址（这种情况类似于两bit关联-两个编码信号的情况），而地址异常跳0的瞬间被接收端时钟域B捕获到就会产生错误的FIFO空信号（EMPTY）。同理，由于地址跨时钟域传递的问题可能导致发送端时钟域接收到地址异常跳15的瞬间，从而产生错误的FIFO满信号（FULL）。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc21.png" alt="亚稳态" /></p>
+<p><font color= #green  >那么如何处理这种地址跨时钟域传递的问题呢？</font>其实思路还是跟最开始一致，即我们<b><font color= red >将多bit跨时钟域信号想办法转换为单bit跨时钟域信号，然后通过一些普通方法来解决问题</font></b>。在两bit关联-两个编码信号那一节中使用<b><font color= red >独热码</font></b>编码来进行多bit转单bit信号，而对于地址信号这种每次只加一或减一的连续信号，可以使用<b><font color= red >格雷码</font></b>来进行编码。由于格雷码相邻两个码值只有1个bit不同，因此即使出现异常，最多也就保持上一个正确的值而已。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc22.png" alt="亚稳态" /></p>
+<p>根据不同的设计，可能会用到格雷码的编解码器。代码如下。</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> gray2bin #(<span class="keyword">parameter</span> WIDTH = <span class="number">4</span>)</span><br><span class="line">( </span><br><span class="line">    <span class="keyword">input</span>  [WIDTH-<span class="number">1</span>:<span class="number">0</span>]      gray                    ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">reg</span>[WIDTH-<span class="number">1</span>:<span class="number">0</span>]  bin                            </span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">integer</span> i;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">always</span>@(gray)<span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">for</span> (i=<span class="number">0</span>;i&lt;WIDTH;i=i+<span class="number">1</span>)</span><br><span class="line">            bin[i] = ^(gray&gt;&gt;i);</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">endmodul</span><br></pre></td></tr></table></figure>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> bin2gray #(<span class="keyword">parameter</span> WIDTH = <span class="number">4</span>)</span><br><span class="line">( </span><br><span class="line">    <span class="keyword">input</span> [WIDTH-<span class="number">1</span>:<span class="number">0</span>]       bin                     ,       </span><br><span class="line">    <span class="keyword">output</span>  <span class="keyword">wire</span>[WIDTH-<span class="number">1</span>:<span class="number">0</span>] gray                           </span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">assign</span> gray = (bin&gt;&gt;<span class="number">1</span>)^(bin);</span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+<p>格雷码计数器的代码就不贴了，就是在普通二进制计数器后加上格雷码编码。</p>
+<p>因此。异步FIFO的设计架构如下。主要是几个部分：</p>
+<ol>
+<li>发送端的FIFO控制器，负责将数据放入FIFO，并在接收FIFO满标志时不再放数据</li>
+<li>接收端的FIFO控制器，负责从FIFO取出数据，并在接收FIFO空标志时不再取数据</li>
+<li>FIFO满标志控制器以及FIFO空标志控制器，负责进行地址的格雷码转换并输出标志</li>
+<li>同步器，负责同步收发两端发送给对方的地址信号</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cdc23.png" alt="亚稳态" /></p>
+<p>给自己留个作业，以后有时间了自己写一个异步FIFO。</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> fifo_async</span><br></pre></td></tr></table></figure>
+<h2 id="font-color-b5d5ff-stylefont-weightbold单bit-异步复位font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold单bit-异步复位font"></a> <font color= #b5d5ff style='font-weight:bold'>单bit-异步复位</font></h2>
+<p>数字系统的上电复位信号都是异步的，复位信号的亚稳态都是在<b><font color= red >复位信号释放的时候</font></b>出现的。对于异步复位信号，引入了标准的恢复时间(Recovery Time)和移除时间(Removal Time)的概念。本质上还是建立时间和保持时间的概念。而解决异步复位问题，一般就是一句口诀：<b><font color= red >异步复位，同步释放</font></b>。即在进行异步复位释放的时候，先对复位信号打两拍，同步处理之后的信号再作为系统的复位信号使用。</p>
+<h1 id="font-color-b5d5ff-stylefont-weightbold结语font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold结语font"></a> <font color= #b5d5ff style='font-weight:bold'>结语</font></h1>
+<ol>
+<li>单bit亚稳态问题一般解决方法：打两拍。如果系统频率很高或者有其他特殊约束，也可能打3拍，要分析MTBF；</li>
+<li>数据丢失的问题一般解决方法：延宽信号或进行握手；</li>
+<li>多bit数据传输的一般解决方法：握手协议（2次，3次或4次），或使用异步FIFO（格雷码转换地址信号）；</li>
+<li>异步复位问题的解决方法：异步复位，同步释放。</li>
+</ol>
+<p>同时，在过程中作者验证了另外几个小问题，限于篇幅不做分享，列在下方与读者一共同思考。</p>
+<ol>
+<li><font color= #green  >常说的竞争和冒险与亚稳态问题有什么关系？</font></li>
+<li><font color= #green  >格雷码编码是如何保证相邻码之间只有一个bit有变化的？</font></li>
+</ol>
+<p>本文部分的内容完全来自参考资料<sup>[1]</sup>，大家有兴趣可以去看看英文原版，写的非常好。</p>
+<h1 id="font-color-b5d5ff-stylefont-weightbold参考资料font"><a class="markdownIt-Anchor" href="#font-color-b5d5ff-stylefont-weightbold参考资料font"></a> <font color= #b5d5ff style='font-weight:bold'>参考资料</font></h1>
+<p>[1] Synthesis and Scripting Techniques for Designing Multi-Asynchronous Clock Designs</p>
+<p>[2] <a target="_blank" rel="noopener" href="http://dengkanwen.com/238.html">揭秘《跨时钟域处理》三大方法</a></p>
+<p>[3] 万年不翻的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%EF%BC%88%E7%AC%AC5%E7%89%88%EF%BC%89/5250042?fr=aladdin">数字电子技术基础（第5版）</a></p>
+<p>[4] <a target="_blank" rel="noopener" href="http://t.elecfans.com/v/832.html">芯片设计中跨时钟域(CDC)5大问题与解决方法</a></p>
+<p>[5] William J. Dally and John W. Poulton, Digital Systems Engineering, Cambridge University Press, 1998, pp. 469-470.</p>
+<p>[6] <a target="_blank" rel="noopener" href="https://www.zhihu.com/answer/95940354">跨时钟域同步，为什么两级寄存器结构能够降低亚稳态？</a></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">HonkW</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://honk.wang/posts/Clock-Domain-Crossing-Problem/">https://honk.wang/posts/Clock-Domain-Crossing-Problem/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://honk.wang" target="_blank">Doraemon</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/ic/">ic</a><a class="post-meta__tags" href="/tags/cdc/">cdc</a></div><div class="post_share"><div class="addtoany"><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_facebook_messenger"></a><a class="a2a_button_email"></a><a class="a2a_button_copy_link"></a><a class="a2a_dd" target="_blank" rel="noopener" href="https://www.addtoany.com/share"></a></div></div><script async="async" src="https://static.addtoany.com/menu/page.js"></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/weixinpay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/weixinpay.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><div id="wpac-rating"></div><script>wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Rating', id: 24934});
+(function() {
+  if ('WIDGETPACK_LOADED' in window) return;
+  WIDGETPACK_LOADED = true;
+  var mc = document.createElement('script');
+  mc.type = 'text/javascript';
+  mc.async = true;
+  mc.src = '//embed.widgetpack.com/widget.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();</script><style>#wpac-rating {
+  margin-top: 20px;
+  text-align: center;
+}</style><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/Cordic-Algorithm/"><img class="prev-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/cordic.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Cordic Algorithm</div></div></a></div><div class="next-post pull-right"><a href="/posts/IC-Design-Flow/"><img class="next-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/core.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">IC Design Flow</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/posts/UVM-Intro/" title="UVM Intro"><img class="relatedPosts_cover" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/uvm_cover.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-04-04</div><div class="relatedPosts_title">UVM Intro</div></div></a></div><div class="relatedPosts_item"><a href="/posts/IC-Design-Flow/" title="IC Design Flow"><img class="relatedPosts_cover" data-lazy-src="https://cdn.jsdelivr.net/gh/WangHeng93/Pic@latest/cover/core.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-03-15</div><div class="relatedPosts_title">IC Design Flow</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 JaneR <a href="/love"><i id="heartbeat" class="fa fas fa-heartbeat"></i></a> HonkW</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><div id="running-time"></div><a target="_blank" rel="noopener" href="https://hexo.io/"><img src="https://img.shields.io/badge/Hexo-5.0.0-red.svg" hspace="10" vertical-align="middle" alt="Ver 5.0.0"/></a><a target="_blank" rel="noopener" href="https://demo.jerryc.me/"><img src="https://img.shields.io/badge/Butterfly-3.0.0-purple.svg" hspace="10" vertical-align="middle" alt="Ver 3.0.0"/></a><a target="_blank" rel="noopener" href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/DNS-Tecent-0092ee.svg" hspace="10" vertical-align="middle" alt="DNS by Tencent"/></a><a target="_blank" rel="noopener" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange.svg" hspace="10" vertical-align="middle" alt="CDN by jsDelivr"/><br></a><a target="_blank" rel="noopener" href="https://vercel.com/"><img src="https://img.shields.io/badge/Deploy(Domestic)-Vercel-00FF7F.svg" hspace="10" vertical-align="middle" alt="Deploy(Domestic) by Vercel"/></a><a target="_blank" rel="noopener" href="https://pages.github.com/"><img src="https://img.shields.io/badge/Deploy(Abroad)-Github-3F4448.svg" hspace="10" vertical-align="middle" alt="Deploy(Abroad) by Github"/></a><a target="_blank" rel="noopener" href="https://coding.net/"><img src="https://img.shields.io/badge/Deploy(Backup)-Coding-black.svg" hspace="10" vertical-align="middle" alt="Deploy(Backup) by Coding"/></a><a target="_blank" rel="noopener" href="https://gitee.com/"><img src="https://img.shields.io/badge/Deploy(Backup)-Gitee-C71D23.svg" hspace="10" vertical-align="middle" alt="Deploy(Backup) by Gitee"/></a><script>setInterval(()=>{let create_time=Math.round(new Date(Date.UTC(2019,10,10,14,20,45)).getTime()/1000);let timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);let second=timestamp-create_time;let time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600;}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600;}if(second>=3600){time[2]=parseInt(second/3600);second%=3600;}if(second>=60){time[3]=parseInt(second/60);second%=60;}if(second>0){time[4]=second;}currentTimeHtml='Running for '+time[0]+' year '+time[1]+' day '+time[2]+' hour '+time[3]+' min '+time[4]+' sec';document.getElementById("running-time").innerHTML=currentTimeHtml;},1000);</script></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+  
+    let friends = 'f8c7afb61aea2c203160e90cd3b3a26a,6400426d4d741194a27f6eb6d03f259e,8479ce3f532d8dedd851dc2259fbb3a8,4cfdb76a1d0abb73512452a43ad7fe92,43f423034161c1234e49b8b8a075d8e0,5ee7178858803788421f49802e1c9c73,0007991f99268c04f1aa4cdd9bea93b4,85529577bc393156eb897a74f8bd5182,92dceb625af1ad4d34394a7857ed7702,abd7f9d004eef4ee9b85c26bef4a5a94,00b6017552f79cce0e8d634fdfb77d05'.split(',')
+    let lover = 'c4421111c4dfc66aec9bc6b06ce41157'.split(',')
+    let master = 'b5b1f0b663989b1f75b9a167f8d1450a,aadb40af2f150de622965ab74453633c'.split(',')
+    let tagMeta = '博主,Lover,伙伴,访客'.split(',')
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: 'SPdUp8MmHsbDQ8DcOcbRc63T-MdYXbMMI',
+      appKey: 'hUNSky7JaHy5zb0Jab7i8qsj',
+      placeholder: '留下邮箱即可回复，作者回复后能收到邮件。点个赞评论一下吧!',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-cn',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      master: master,
+      lover: lover,
+      friends: friends,
+      tagMeta: tagMeta,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/gh/WangHeng93/cdn/valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/gh/WangHeng93/cdn@latest/back-ground/background.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>

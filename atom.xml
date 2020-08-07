@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Doraemon</title>
+  
+  <subtitle>IC Learner</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://honk.wang/"/>
+  <updated>2020-07-08T15:03:13.876Z</updated>
+  <id>https://honk.wang/</id>
+  
+  <author>
+    <name>HonkW</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows必装</title>
+    <link href="https://honk.wang/posts/Windows-Software/"/>
+    <id>https://honk.wang/posts/Windows-Software/</id>
+    <published>2020-06-13T12:07:15.000Z</published>
+    <updated>2020-07-08T15:03:13.876Z</updated>
+    
+    <summary type="html">
+    
+      Windows必装软件列表
+    
+    </summary>
+    
+    
+      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+    
+    
+      <category term="windows" scheme="https://honk.wang/tags/windows/"/>
+    
+      <category term="software" scheme="https://honk.wang/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim-Adventure</title>
+    <link href="https://honk.wang/posts/Vim-Adventure/"/>
+    <id>https://honk.wang/posts/Vim-Adventure/</id>
+    <published>2020-05-30T12:07:39.000Z</published>
+    <updated>2020-07-20T16:24:53.441Z</updated>
+    
+    <summary type="html">
+    
+      vim-adventure是一个基于Vim的网页版游戏，通过游戏行为来锻炼Vim的一些基本操作
+    
+    </summary>
+    
+    
+      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+    
+    
+      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客搭建</title>
+    <link href="https://honk.wang/posts/bulid-hexo-blog/"/>
+    <id>https://honk.wang/posts/bulid-hexo-blog/</id>
+    <published>2020-05-17T14:14:13.000Z</published>
+    <updated>2020-08-06T17:28:36.054Z</updated>
+    
+    <summary type="html">
+    
+      博客搭建过程及优化教程
+    
+    </summary>
+    
+    
+      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+    
+    
+      <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
+    
+      <category term="blog" scheme="https://honk.wang/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gvim-Verilog-Final</title>
+    <link href="https://honk.wang/posts/Gvim-Verilog-Final/"/>
+    <id>https://honk.wang/posts/Gvim-Verilog-Final/</id>
+    <published>2020-05-13T15:13:50.000Z</published>
+    <updated>2020-06-29T16:32:35.822Z</updated>
+    
+    <summary type="html">
+    
+      集成各功能的Gvim在windows下用于编写Verilog。
+    
+    </summary>
+    
+    
+      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+    
+    
+      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+    
+      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVM Intro</title>
+    <link href="https://honk.wang/posts/UVM-Intro/"/>
+    <id>https://honk.wang/posts/UVM-Intro/</id>
+    <published>2020-04-04T02:09:10.000Z</published>
+    <updated>2020-08-07T06:57:36.605Z</updated>
+    
+    <summary type="html">
+    
+      Introduction2UVM
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+    
+      <category term="verification" scheme="https://honk.wang/categories/ic/verification/"/>
+    
+    
+      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+    
+      <category term="uvm" scheme="https://honk.wang/tags/uvm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cordic Algorithm</title>
+    <link href="https://honk.wang/posts/Cordic-Algorithm/"/>
+    <id>https://honk.wang/posts/Cordic-Algorithm/</id>
+    <published>2020-03-24T14:56:47.000Z</published>
+    <updated>2020-08-07T12:52:03.645Z</updated>
+    
+    <summary type="html">
+    
+      CORDIC(Coordinate Rotation Digital Computer)算法，坐标旋转数字计算方法
+    
+    </summary>
+    
+    
+      <category term="math" scheme="https://honk.wang/categories/math/"/>
+    
+    
+      <category term="cordic" scheme="https://honk.wang/tags/cordic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Clock Domain Crossing</title>
+    <link href="https://honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
+    <id>https://honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
+    <published>2020-03-16T16:31:34.000Z</published>
+    <updated>2020-08-07T11:54:57.548Z</updated>
+    
+    <summary type="html">
+    
+      CDC Problem
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+    
+      <category term="design" scheme="https://honk.wang/categories/ic/design/"/>
+    
+    
+      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+    
+      <category term="cdc" scheme="https://honk.wang/tags/cdc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IC Design Flow</title>
+    <link href="https://honk.wang/posts/IC-Design-Flow/"/>
+    <id>https://honk.wang/posts/IC-Design-Flow/</id>
+    <published>2020-03-15T12:10:42.000Z</published>
+    <updated>2020-08-07T04:16:40.421Z</updated>
+    
+    <summary type="html">
+    
+      Design Flow
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+    
+      <category term="flow" scheme="https://honk.wang/categories/ic/flow/"/>
+    
+    
+      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gvim-Verilog-Handbook</title>
+    <link href="https://honk.wang/posts/Gvim-Verilog-HB/"/>
+    <id>https://honk.wang/posts/Gvim-Verilog-HB/</id>
+    <published>2020-03-06T15:54:16.000Z</published>
+    <updated>2020-06-29T16:32:20.535Z</updated>
+    
+    <summary type="html">
+    
+      通过前两篇配置好了用于写Verilog的Gvim编辑器。本文详细记录一下集成的各个功能的Gvim在windows下的使用。
+    
+    </summary>
+    
+    
+      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+    
+    
+      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+    
+      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gvim-Verilog-Env</title>
+    <link href="https://honk.wang/posts/Gvim-Verilog-env/"/>
+    <id>https://honk.wang/posts/Gvim-Verilog-env/</id>
+    <published>2020-02-23T11:19:27.000Z</published>
+    <updated>2020-06-29T16:32:07.079Z</updated>
+    
+    <summary type="html">
+    
+      根据网上的资料，在Windows下使用Gvim搭建一个适用于高效Verilog编程的环境，实现很多功能自动化。由于网上资料不全面，且不一定准确，因此记录使用到的所有功能及过程。
+    
+    </summary>
+    
+    
+      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+    
+    
+      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+    
+      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo&amp;butterfly</title>
+    <link href="https://honk.wang/posts/hexo-butterfly/"/>
+    <id>https://honk.wang/posts/hexo-butterfly/</id>
+    <published>2019-11-10T07:10:42.000Z</published>
+    <updated>2020-08-07T07:22:08.467Z</updated>
+    
+    <summary type="html">
+    
+      hexo博客和butterfly主题使用，各种特殊样式预览
+    
+    </summary>
+    
+    
+      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+    
+    
+      <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
+    
+      <category term="butterfly" scheme="https://honk.wang/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客相关配置（加密，勿点）</title>
+    <link href="https://honk.wang/posts/blog-config/"/>
+    <id>https://honk.wang/posts/blog-config/</id>
+    <published>2019-11-08T16:00:00.000Z</published>
+    <updated>2020-08-07T07:30:35.072Z</updated>
+    
+    <summary type="html">
+    
+      博客相关配置，博主&#39;专用&#39;。本文带密码加密，非博主勿查看。
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

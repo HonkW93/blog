@@ -1,0 +1,12 @@
+https://honk.wang/posts/Windows-Software/
+https://honk.wang/posts/Vim-Adventure/
+https://honk.wang/posts/bulid-hexo-blog/
+https://honk.wang/posts/Gvim-Verilog-Final/
+https://honk.wang/posts/UVM-Intro/
+https://honk.wang/posts/Cordic-Algorithm/
+https://honk.wang/posts/Clock-Domain-Crossing-Problem/
+https://honk.wang/posts/IC-Design-Flow/
+https://honk.wang/posts/Gvim-Verilog-HB/
+https://honk.wang/posts/Gvim-Verilog-env/
+https://honk.wang/posts/hexo-butterfly/
+https://honk.wang/posts/blog-config/
