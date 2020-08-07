@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://honk.wang/"/>
-  <updated>2020-07-08T15:03:13.876Z</updated>
+  <updated>2020-08-07T12:56:48.282Z</updated>
   <id>https://honk.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://honk.wang/posts/Windows-Software/"/>
     <id>https://honk.wang/posts/Windows-Software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2020-07-08T15:03:13.876Z</updated>
+    <updated>2020-08-07T12:56:48.282Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,7 @@
     </summary>
     
     
-      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+      <category term="tools" scheme="https://honk.wang/categories/tools/"/>
     
     
       <category term="windows" scheme="https://honk.wang/tags/windows/"/>
@@ -67,7 +67,7 @@
     <link href="https://honk.wang/posts/bulid-hexo-blog/"/>
     <id>https://honk.wang/posts/bulid-hexo-blog/</id>
     <published>2020-05-17T14:14:13.000Z</published>
-    <updated>2020-08-06T17:28:36.054Z</updated>
+    <updated>2020-08-07T12:56:15.036Z</updated>
     
     <summary type="html">
     
@@ -76,7 +76,7 @@
     </summary>
     
     
-      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
     
     
       <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
@@ -259,7 +259,7 @@
     <link href="https://honk.wang/posts/hexo-butterfly/"/>
     <id>https://honk.wang/posts/hexo-butterfly/</id>
     <published>2019-11-10T07:10:42.000Z</published>
-    <updated>2020-08-07T07:22:08.467Z</updated>
+    <updated>2020-08-07T12:55:56.762Z</updated>
     
     <summary type="html">
     
@@ -268,7 +268,7 @@
     </summary>
     
     
-      <category term="daily" scheme="https://honk.wang/categories/daily/"/>
+      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
     
     
       <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
@@ -282,7 +282,7 @@
     <link href="https://honk.wang/posts/blog-config/"/>
     <id>https://honk.wang/posts/blog-config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2020-08-07T07:30:35.072Z</updated>
+    <updated>2020-08-07T12:56:26.262Z</updated>
     
     <summary type="html">
     
@@ -290,6 +290,8 @@
     
     </summary>
     
+    
+      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
     
     
   </entry>
