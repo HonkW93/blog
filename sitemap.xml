@@ -242,14 +242,14 @@
   </url>
   
   <url>
-    <loc>https://honk.wang/tags/uvm/</loc>
+    <loc>https://honk.wang/tags/cdc/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://honk.wang/tags/cdc/</loc>
+    <loc>https://honk.wang/tags/uvm/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -307,14 +307,14 @@
   </url>
   
   <url>
-    <loc>https://honk.wang/categories/ic/verification/</loc>
+    <loc>https://honk.wang/categories/ic/design/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://honk.wang/categories/ic/design/</loc>
+    <loc>https://honk.wang/categories/ic/verification/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
