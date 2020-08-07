@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://honk.wang/posts/bulid-hexo-blog/</loc>
+    
+    <lastmod>2020-08-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://honk.wang/music/index.html</loc>
+    
+    <lastmod>2020-08-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://honk.wang/posts/Windows-Software/</loc>
     
     <lastmod>2020-08-07</lastmod>
@@ -10,13 +24,6 @@
   
   <url>
     <loc>https://honk.wang/posts/blog-config/</loc>
-    
-    <lastmod>2020-08-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/posts/bulid-hexo-blog/</loc>
     
     <lastmod>2020-08-07</lastmod>
     
@@ -89,13 +96,6 @@
     <loc>https://honk.wang/posts/Vim-Adventure/</loc>
     
     <lastmod>2020-07-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/music/index.html</loc>
-    
-    <lastmod>2020-07-14</lastmod>
     
   </url>
   
@@ -242,6 +242,13 @@
   </url>
   
   <url>
+    <loc>https://honk.wang/tags/uvm/</loc>
+    <lastmod>2020-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://honk.wang/tags/cdc/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
@@ -250,13 +257,6 @@
   
   <url>
     <loc>https://honk.wang/tags/cordic/</loc>
-    <lastmod>2020-08-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/tags/uvm/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -307,14 +307,14 @@
   </url>
   
   <url>
-    <loc>https://honk.wang/categories/ic/design/</loc>
+    <loc>https://honk.wang/categories/ic/verification/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://honk.wang/categories/ic/verification/</loc>
+    <loc>https://honk.wang/categories/ic/design/</loc>
     <lastmod>2020-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
