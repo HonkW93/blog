@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://honk.wang/about/index.html</loc>
+    
+    <lastmod>2020-08-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://honk.wang/steam/index.html</loc>
     
     <lastmod>2020-08-12</lastmod>
@@ -121,13 +128,6 @@
   </url>
   
   <url>
-    <loc>https://honk.wang/about/index.html</loc>
-    
-    <lastmod>2020-07-26</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://honk.wang/posts/Gvim-Verilog-Final/</loc>
     
     <lastmod>2020-06-29</lastmod>
@@ -179,7 +179,7 @@
 
   <url>
     <loc>https://honk.wang/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -187,84 +187,84 @@
   
   <url>
     <loc>https://honk.wang/tags/ic/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/verilog/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/gvim/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/vim/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/hexo/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/blog/</loc>
-    <lastmod>2020-08-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/tags/butterfly/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/windows/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/software/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://honk.wang/tags/cordic/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <loc>https://honk.wang/tags/butterfly/</loc>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/cdc/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/tags/uvm/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://honk.wang/tags/cordic/</loc>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -273,56 +273,56 @@
   
   <url>
     <loc>https://honk.wang/categories/math/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/ic/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/editor/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/hexo/</loc>
-    <lastmod>2020-08-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/categories/ic/flow/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/tools/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://honk.wang/categories/ic/flow/</loc>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/ic/design/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://honk.wang/categories/ic/verification/</loc>
-    <lastmod>2020-08-12</lastmod>
+    <lastmod>2020-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
