@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://honk.wang/posts/Gvim-Verilog-Final/</loc>
+    <lastmod>2020-08-15</lastmod>
+  </url>
+  <url>
+    <loc>https://honk.wang/posts/Gvim-Verilog-HB/</loc>
+    <lastmod>2020-08-15</lastmod>
+  </url>
+  <url>
+    <loc>https://honk.wang/posts/Gvim-Verilog-env/</loc>
+    <lastmod>2020-08-15</lastmod>
+  </url>
+  <url>
     <loc>https://honk.wang/posts/bulid-hexo-blog/</loc>
     <lastmod>2020-08-12</lastmod>
   </url>
@@ -35,17 +47,5 @@
   <url>
     <loc>https://honk.wang/posts/IC-Design-Flow/</loc>
     <lastmod>2020-08-07</lastmod>
-  </url>
-  <url>
-    <loc>https://honk.wang/posts/Gvim-Verilog-Final/</loc>
-    <lastmod>2020-06-29</lastmod>
-  </url>
-  <url>
-    <loc>https://honk.wang/posts/Gvim-Verilog-HB/</loc>
-    <lastmod>2020-06-29</lastmod>
-  </url>
-  <url>
-    <loc>https://honk.wang/posts/Gvim-Verilog-env/</loc>
-    <lastmod>2020-06-29</lastmod>
   </url>
 </urlset> 
