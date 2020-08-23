@@ -1,0 +1,20 @@
+<svg width="171.8" height="20" viewBox="0 0 1718 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Deploy(Domestic): Vercel">
+  <title>Deploy(Domestic): Vercel</title>
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="1718" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="1277" height="200" fill="#555"/>
+    <rect width="441" height="200" fill="#00FF7F" x="1277"/>
+    <rect width="1718" height="200" fill="url(#a)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="240" y="148" textLength="997" fill="#000" opacity="0.25">Deploy(Domestic)</text>
+    <text x="230" y="138" textLength="997">Deploy(Domestic)</text>
+    <text x="1332" y="148" textLength="341" fill="#000" opacity="0.25">Vercel</text>
+    <text x="1322" y="138" textLength="341">Vercel</text>
+  </g>
+  <image x="40" y="35" width="150" height="130" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTMgMTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjE5Ni41NzIlIiB5MT0iMjI4LjgxNSUiIHgyPSI1MCUiIHkyPSI1MCUiIGlkPSJhIj48c3RvcCBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTM1MC41IDE1MEw0MDcgMjUwSDI5NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTQgLTE1MCkiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg=="/>
+</svg>
