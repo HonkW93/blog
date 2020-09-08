@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://honk.wang/"/>
-  <updated>2020-08-07T12:56:48.282Z</updated>
+  <updated>2020-09-08T15:07:27.099Z</updated>
   <id>https://honk.wang/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://honk.wang/posts/Windows-Software/"/>
     <id>https://honk.wang/posts/Windows-Software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2020-08-07T12:56:48.282Z</updated>
+    <updated>2020-09-08T15:07:27.099Z</updated>
     
     <summary type="html">
     
-      Windows必装软件列表
+      个人使用的推荐的Windows必装软件。包括日常、编辑、工具、浏览器插件等软件。
     
     </summary>
     
@@ -44,11 +44,11 @@
     <link href="https://honk.wang/posts/Vim-Adventure/"/>
     <id>https://honk.wang/posts/Vim-Adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2020-08-09T03:25:46.299Z</updated>
+    <updated>2020-09-08T15:48:19.805Z</updated>
     
     <summary type="html">
     
-      vim-adventure是一个基于Vim的网页版游戏，通过游戏行为来锻炼Vim的一些基本操作
+      Vim-Adventure是一个基于Vim的网页版游戏，通过游戏行为来锻炼Vim的一些基本操作。本文通过Vim-Adventure的关卡介绍Vim编辑器的基本操作
     
     </summary>
     
@@ -67,11 +67,11 @@
     <link href="https://honk.wang/posts/bulid-hexo-blog/"/>
     <id>https://honk.wang/posts/bulid-hexo-blog/</id>
     <published>2020-05-17T14:14:13.000Z</published>
-    <updated>2020-08-26T16:49:02.618Z</updated>
+    <updated>2020-09-08T15:49:58.138Z</updated>
     
     <summary type="html">
     
-      博客搭建过程及优化教程
+      个人博客的整体搭建参考资料及部分博客的优化教程，可用来查询一些功能实现，以防遗忘
     
     </summary>
     
@@ -90,11 +90,11 @@
     <link href="https://honk.wang/posts/Gvim-Verilog-Final/"/>
     <id>https://honk.wang/posts/Gvim-Verilog-Final/</id>
     <published>2020-05-13T15:13:50.000Z</published>
-    <updated>2020-08-16T04:17:17.290Z</updated>
+    <updated>2020-09-08T15:48:27.533Z</updated>
     
     <summary type="html">
     
-      集成各功能的Gvim在windows下用于编写Verilog。
+      本文介绍集成各个功能的Gvim在windows下用于编写Verilog的各种实现效果
     
     </summary>
     
@@ -115,11 +115,11 @@
     <link href="https://honk.wang/posts/UVM-Intro/"/>
     <id>https://honk.wang/posts/UVM-Intro/</id>
     <published>2020-04-04T02:09:10.000Z</published>
-    <updated>2020-08-07T06:57:36.605Z</updated>
+    <updated>2020-09-08T15:11:28.135Z</updated>
     
     <summary type="html">
     
-      Introduction2UVM
+      This is basic Introduction2UVM
     
     </summary>
     
@@ -140,11 +140,11 @@
     <link href="https://honk.wang/posts/Cordic-Algorithm/"/>
     <id>https://honk.wang/posts/Cordic-Algorithm/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2020-08-07T12:52:03.645Z</updated>
+    <updated>2020-09-08T15:13:49.382Z</updated>
     
     <summary type="html">
     
-      CORDIC(Coordinate Rotation Digital Computer)算法，坐标旋转数字计算方法
+      本文介绍CORDIC(Coordinate Rotation Digital Computer)算法，坐标旋转数字计算方法，并阐述其FPGA实现方法
     
     </summary>
     
@@ -161,11 +161,11 @@
     <link href="https://honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
     <id>https://honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
     <published>2020-03-16T16:31:34.000Z</published>
-    <updated>2020-08-07T11:54:57.548Z</updated>
+    <updated>2020-09-08T15:12:27.439Z</updated>
     
     <summary type="html">
     
-      CDC Problem
+      跨时钟域问题分析 Clock-Domain-Crossing(CDC) Problem
     
     </summary>
     
@@ -186,11 +186,11 @@
     <link href="https://honk.wang/posts/IC-Design-Flow/"/>
     <id>https://honk.wang/posts/IC-Design-Flow/</id>
     <published>2020-03-15T12:10:42.000Z</published>
-    <updated>2020-08-07T04:16:40.421Z</updated>
+    <updated>2020-09-08T15:12:52.654Z</updated>
     
     <summary type="html">
     
-      Design Flow
+      Background &amp; Design Flow
     
     </summary>
     
@@ -209,11 +209,11 @@
     <link href="https://honk.wang/posts/Gvim-Verilog-HB/"/>
     <id>https://honk.wang/posts/Gvim-Verilog-HB/</id>
     <published>2020-03-06T15:54:16.000Z</published>
-    <updated>2020-08-15T17:37:36.921Z</updated>
+    <updated>2020-09-08T15:10:30.385Z</updated>
     
     <summary type="html">
     
-      通过前两篇配置好了用于写Verilog的Gvim编辑器。本文详细记录一下集成的各个功能的Gvim在windows下的使用。
+      通过前篇配置好了用于写Verilog的Gvim编辑器。本文详细记录集成的各个功能的Gvim在windows下的使用。
     
     </summary>
     
@@ -278,11 +278,11 @@
   </entry>
   
   <entry>
-    <title>hexo博客相关配置（加密，勿点）</title>
+    <title>hexo博客相关配置</title>
     <link href="https://honk.wang/posts/blog-config/"/>
     <id>https://honk.wang/posts/blog-config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2020-08-29T15:22:56.508Z</updated>
+    <updated>2020-09-08T15:57:03.126Z</updated>
     
     <summary type="html">
     
