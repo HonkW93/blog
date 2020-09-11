@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Doraemon</title>
+  <title>HonkW</title>
   
   <subtitle>IC Learner</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -282,7 +282,7 @@
     <link href="https://honk.wang/posts/blog-config/"/>
     <id>https://honk.wang/posts/blog-config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2020-09-10T15:10:51.260Z</updated>
+    <updated>2020-09-11T14:15:20.868Z</updated>
     
     <summary type="html">
     

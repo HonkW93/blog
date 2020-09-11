@@ -1,0 +1,408 @@
+/*Battle模板1*/
+a.battleItem {
+  line-height: 20px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 5px black;
+  width: 46%;
+  margin: 1.5%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0% 1% 0% 0%;
+  height: 88px;
+  color: #95c3dd;
+  border: 1px solid;
+  border-radius: 0px 10px 10px 00px;
+  text-decoration: none;
+  background: linear-gradient(to left,#546272,#323C48);
+}
+
+a.battleItem:hover {
+  color: #95c3dd;
+  opacity: 0.8;
+  filter: saturate(150%);
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  -o-filter: saturate(150%);
+  -ms-filter: saturate(150%);
+}
+
+a.battleItem img {
+	pointer-events: none;
+  height: 90px;
+  width: 65px;
+  float: left;
+  padding-right: 5px;
+}
+
+a.battleItem .battletext {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 81px;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 1% 0% 0% 3%;
+  line-height: 160%;
+}
+
+a.battleItem div.battleBG {
+  height: 25px;
+  width: 195px;
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 0px;
+  position: absolute;
+  right:3%;
+  bottom: 0px;
+}
+
+a.battleItem div.battleFG {
+  height: 21px;
+  width: 102px;
+  background-color: #4169E1;
+  border-radius: 2px;
+  position: absolute;
+  right:2px;
+  bottom: 2px;
+  z-index: 1;
+}
+
+a.battleItem div.battleiText {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+  font-size: 14px;
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  z-index: 2;
+}
+
+@media screen and (max-width:788px) {
+  a.battleItem {
+    width: 95%;
+  }
+}
+
+@keyframes jdanimis {
+  0% {
+    width: 0%;
+  }
+
+  100% {}
+}
+/*Battle模板2*/
+a.battle2Item {
+  line-height: 20px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 5px black;
+  width: 46%;
+  margin: 1.5%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0% 1% 0% 0%;
+  height: 88px;
+  color: #95c3dd;
+  border: 1px solid;
+  border-radius: 0px 10px 10px 00px;
+  text-decoration: none;
+  background: linear-gradient(to left,#546272,#323C48);
+}
+
+a.battle2Item:hover {
+  color: #95c3dd;
+  opacity: 0.8;
+  filter: saturate(150%);
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  -o-filter: saturate(150%);
+  -ms-filter: saturate(150%);
+}
+
+a.battle2Item img {
+	pointer-events: none;
+  height: 90px;
+  width: 65px;
+  float: left;
+  padding-right: 5px;
+}
+
+a.battle2Item .battle2text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 81px;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 1% 0% 0% 3%;
+  line-height: 160%;
+}
+
+a.battle2Item div.battle2BG {
+  height: 25px;
+  width: 147px;
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 0px;
+  position: absolute;
+  right:3%;
+  bottom: 0px;
+}
+
+a.battle2Item div.battle2FG {
+  height: 21px;
+  width: 102px;
+  background-color: #4169E1;
+  border-radius: 2px;
+  position: absolute;
+  right:2px;
+  bottom: 2px;
+  z-index: 1;
+}
+
+a.battle2Item div.battle2iText {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+  font-size: 14px;
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  z-index: 2;
+}
+
+@media screen and (max-width:788px) {
+  a.battle2Item {
+    width: 95%;
+  }
+}
+
+@keyframes jdanimis {
+  0% {
+    width: 0%;
+  }
+
+  100% {}
+}
+
+
+
+/*Origin模板*/
+a.originItem {
+  line-height: 20px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 5px black;
+  width: 46%;
+  margin: 1.5%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0% 1% 0% 0%;
+  height: 88px;
+  color: #95c3dd;
+  border: 1px solid;
+  border-radius: 0px 10px 10px 00px;
+  text-decoration: none;
+  background: linear-gradient(to left,#546272,#323C48);
+}
+
+a.originItem:hover {
+  color: #95c3dd;
+  opacity: 0.8;
+  filter: saturate(150%);
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  -o-filter: saturate(150%);
+  -ms-filter: saturate(150%);
+}
+
+a.originItem img {
+	pointer-events: none;
+  height: 90px;
+  width: 65px;
+  float: left;
+  padding-right: 5px;
+}
+
+a.originItem .origintext {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 81px;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 1% 0% 0% 3%;
+  line-height: 160%;
+}
+
+a.originItem div.originBG {
+  height: 25px;
+  width: 128px;
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 0px;
+  position: absolute;
+  right:3%;
+  bottom: 0px;
+}
+
+a.originItem div.originFG {
+  height: 21px;
+  width: 83px;
+  background-color: #D2691E;
+  border-radius: 2px;
+  position: absolute;
+  right:2px;
+  bottom: 2px;
+  z-index: 1;
+}
+
+a.originItem div.originiText {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+  font-size: 14px;
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  z-index: 2;
+}
+
+@media screen and (max-width:788px) {
+  a.originItem {
+    width: 95%;
+  }
+}
+
+@keyframes jdanimis {
+  0% {
+    width: 0%;
+  }
+
+  100% {}
+}
+
+
+/*steam模板*/
+a.steamItem {
+  line-height: 20px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 5px black;
+  width: 46%;
+  margin: 1.5%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0% 1% 0% 0%;
+  height: 88px;
+  color: #95c3dd;
+  border: 1px solid;
+  border-radius: 0px 10px 10px 00px;
+  text-decoration: none;
+  background: linear-gradient(to left,#546272,#323C48);
+}
+
+a.steamItem:hover {
+  color: #95c3dd;
+  opacity: 0.8;
+  filter: saturate(150%);
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  -o-filter: saturate(150%);
+  -ms-filter: saturate(150%);
+}
+
+a.steamItem img {
+	pointer-events: none;
+  height: 90px;
+  width: 65px;
+  float: left;
+  padding-right: 5px;
+}
+
+a.steamItem .steamtext {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 81px;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 1% 0% 0% 3%;
+  line-height: 160%;
+}
+
+a.steamItem div.steamBG {
+  height: 25px;
+  width: 128px;
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 0px;
+  position: absolute;
+  right:3%;
+  bottom: 0px;
+}
+
+a.steamItem div.steamFG {
+  height: 21px;
+  width: 83px;
+  background-color: #4C6B22;
+  border-radius: 2px;
+  position: absolute;
+  right:2px;
+  bottom: 2px;
+  z-index: 1;
+}
+
+a.steamItem div.steamiText {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+  font-size: 14px;
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  z-index: 2;
+}
+
+@media screen and (max-width:788px) {
+  a.steamItem {
+    width: 95%;
+  }
+}
+
+@keyframes jdanimis {
+  0% {
+    width: 0%;
+  }
+
+  100% {}
+}
+
+.steampic{
+	pointer-events: none;
+}
+
+*,::after,::before {
+	box-sizing: inherit
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 1.5;
+	-webkit-tap-highlight-color: transparent
+}
