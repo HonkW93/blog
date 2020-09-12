@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://honk.wang/posts/Clock-Domain-Crossing-Problem/</loc>
+    
+    <lastmod>2020-09-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://honk.wang/posts/Cordic-Algorithm/</loc>
     
     <lastmod>2020-09-12</lastmod>
@@ -66,13 +73,6 @@
   
   <url>
     <loc>https://honk.wang/posts/IC-Design-Flow/</loc>
-    
-    <lastmod>2020-09-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://honk.wang/posts/Clock-Domain-Crossing-Problem/</loc>
     
     <lastmod>2020-09-08</lastmod>
     
