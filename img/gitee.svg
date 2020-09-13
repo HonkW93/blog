@@ -1,0 +1,20 @@
+<svg width="153.4" height="20" viewBox="0 0 1534 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Deploy(Backup): Gitee">
+  <title>Deploy(Backup): Gitee</title>
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="1534" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="1144" height="200" fill="#555"/>
+    <rect width="390" height="200" fill="#d81e06" x="1144"/>
+    <rect width="1534" height="200" fill="url(#a)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="220" y="148" textLength="884" fill="#000" opacity="0.25">Deploy(Backup)</text>
+    <text x="210" y="138" textLength="884">Deploy(Backup)</text>
+    <text x="1199" y="148" textLength="290" fill="#000" opacity="0.25">Gitee</text>
+    <text x="1189" y="138" textLength="290">Gitee</text>
+  </g>
+  <image x="40" y="35" width="130" height="130" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTk3MjUxODQ3MjQxIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE0NDkzIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTUxMiAxMDI0QzIzMC40IDEwMjQgMCA3OTMuNiAwIDUxMlMyMzAuNCAwIDUxMiAwczUxMiAyMzAuNCA1MTIgNTEyLTIzMC40IDUxMi01MTIgNTEyeiBtMjU5LjItNTY5LjZINDgwYy0xMi44IDAtMjUuNiAxMi44LTI1LjYgMjUuNnY2NGMwIDEyLjggMTIuOCAyNS42IDI1LjYgMjUuNmgxNzZjMTIuOCAwIDI1LjYgMTIuOCAyNS42IDI1LjZ2MTIuOGMwIDQxLjYtMzUuMiA3Ni44LTc2LjggNzYuOGgtMjQwYy0xMi44IDAtMjUuNi0xMi44LTI1LjYtMjUuNlY0MTZjMC00MS42IDM1LjItNzYuOCA3Ni44LTc2LjhoMzU1LjJjMTIuOCAwIDI1LjYtMTIuOCAyNS42LTI1LjZ2LTY0YzAtMTIuOC0xMi44LTI1LjYtMjUuNi0yNS42SDQxNmMtMTA1LjYgMC0xODguOCA4Ni40LTE4OC44IDE4OC44Vjc2OGMwIDEyLjggMTIuOCAyNS42IDI1LjYgMjUuNmgzNzQuNGM5Mi44IDAgMTY5LjYtNzYuOCAxNjkuNi0xNjkuNnYtMTQ0YzAtMTIuOC0xMi44LTI1LjYtMjUuNi0yNS42eiIgZmlsbD0iI2Q4MWUwNiIgcC1pZD0iMTQ0OTQiPjwvcGF0aD48L3N2Zz4="/>
+</svg>
