@@ -5,9 +5,9 @@
   <subtitle>IC Learner</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://honk.wang/"/>
-  <updated>2020-09-17T13:53:48.755Z</updated>
-  <id>https://honk.wang/</id>
+  <link href="https://blog.honk.wang/"/>
+  <updated>2020-10-31T11:25:55.688Z</updated>
+  <id>https://blog.honk.wang/</id>
   
   <author>
     <name>HonkW</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Windows必装</title>
-    <link href="https://honk.wang/posts/Windows-Software/"/>
-    <id>https://honk.wang/posts/Windows-Software/</id>
+    <link href="https://blog.honk.wang/posts/Windows-Software/"/>
+    <id>https://blog.honk.wang/posts/Windows-Software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2020-09-17T13:53:48.755Z</updated>
+    <updated>2020-10-31T11:25:55.688Z</updated>
     
     <summary type="html">
     
@@ -30,21 +30,21 @@
     </summary>
     
     
-      <category term="tools" scheme="https://honk.wang/categories/tools/"/>
+      <category term="tools" scheme="https://blog.honk.wang/categories/tools/"/>
     
     
-      <category term="windows" scheme="https://honk.wang/tags/windows/"/>
+      <category term="windows" scheme="https://blog.honk.wang/tags/windows/"/>
     
-      <category term="software" scheme="https://honk.wang/tags/software/"/>
+      <category term="software" scheme="https://blog.honk.wang/tags/software/"/>
     
   </entry>
   
   <entry>
     <title>Vim-Adventure</title>
-    <link href="https://honk.wang/posts/Vim-Adventure/"/>
-    <id>https://honk.wang/posts/Vim-Adventure/</id>
+    <link href="https://blog.honk.wang/posts/Vim-Adventure/"/>
+    <id>https://blog.honk.wang/posts/Vim-Adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2020-09-19T01:43:32.395Z</updated>
+    <updated>2020-10-31T11:25:55.425Z</updated>
     
     <summary type="html">
     
@@ -53,21 +53,21 @@
     </summary>
     
     
-      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
-      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
-      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客搭建</title>
-    <link href="https://honk.wang/posts/bulid-hexo-blog/"/>
-    <id>https://honk.wang/posts/bulid-hexo-blog/</id>
+    <link href="https://blog.honk.wang/posts/Hexo-Blog-Construction/"/>
+    <id>https://blog.honk.wang/posts/Hexo-Blog-Construction/</id>
     <published>2020-05-17T14:14:13.000Z</published>
-    <updated>2020-09-19T01:43:33.406Z</updated>
+    <updated>2020-11-02T15:57:02.146Z</updated>
     
     <summary type="html">
     
@@ -76,21 +76,21 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
+      <category term="hexo" scheme="https://blog.honk.wang/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.honk.wang/tags/hexo/"/>
     
-      <category term="blog" scheme="https://honk.wang/tags/blog/"/>
+      <category term="blog" scheme="https://blog.honk.wang/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>Gvim-Verilog-Final</title>
-    <link href="https://honk.wang/posts/Gvim-Verilog-Final/"/>
-    <id>https://honk.wang/posts/Gvim-Verilog-Final/</id>
+    <link href="https://blog.honk.wang/posts/Gvim-Verilog-Final/"/>
+    <id>https://blog.honk.wang/posts/Gvim-Verilog-Final/</id>
     <published>2020-05-13T15:13:50.000Z</published>
-    <updated>2020-09-19T01:43:13.291Z</updated>
+    <updated>2020-10-31T11:25:55.507Z</updated>
     
     <summary type="html">
     
@@ -99,23 +99,23 @@
     </summary>
     
     
-      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
-      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
-      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
-      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>UVM Intro</title>
-    <link href="https://honk.wang/posts/UVM-Intro/"/>
-    <id>https://honk.wang/posts/UVM-Intro/</id>
+    <link href="https://blog.honk.wang/posts/UVM-Intro/"/>
+    <id>https://blog.honk.wang/posts/UVM-Intro/</id>
     <published>2020-04-04T02:09:10.000Z</published>
-    <updated>2020-09-17T13:53:49.612Z</updated>
+    <updated>2020-10-31T11:25:52.787Z</updated>
     
     <summary type="html">
     
@@ -124,23 +124,23 @@
     </summary>
     
     
-      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
     
-      <category term="verification" scheme="https://honk.wang/categories/ic/verification/"/>
+      <category term="verification" scheme="https://blog.honk.wang/categories/ic/verification/"/>
     
     
-      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="uvm" scheme="https://honk.wang/tags/uvm/"/>
+      <category term="uvm" scheme="https://blog.honk.wang/tags/uvm/"/>
     
   </entry>
   
   <entry>
     <title>Cordic Algorithm</title>
-    <link href="https://honk.wang/posts/Cordic-Algorithm/"/>
-    <id>https://honk.wang/posts/Cordic-Algorithm/</id>
+    <link href="https://blog.honk.wang/posts/Cordic-Algorithm/"/>
+    <id>https://blog.honk.wang/posts/Cordic-Algorithm/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2020-09-19T01:43:20.243Z</updated>
+    <updated>2020-10-31T11:42:39.728Z</updated>
     
     <summary type="html">
     
@@ -149,19 +149,21 @@
     </summary>
     
     
-      <category term="math" scheme="https://honk.wang/categories/math/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="math" scheme="https://blog.honk.wang/categories/ic/math/"/>
     
     
-      <category term="cordic" scheme="https://honk.wang/tags/cordic/"/>
+      <category term="cordic" scheme="https://blog.honk.wang/tags/cordic/"/>
     
   </entry>
   
   <entry>
     <title>Clock Domain Crossing</title>
-    <link href="https://honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
-    <id>https://honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
+    <link href="https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
+    <id>https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
     <published>2020-03-16T16:31:34.000Z</published>
-    <updated>2020-09-17T13:53:49.763Z</updated>
+    <updated>2020-10-31T11:25:55.572Z</updated>
     
     <summary type="html">
     
@@ -170,23 +172,23 @@
     </summary>
     
     
-      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
     
-      <category term="design" scheme="https://honk.wang/categories/ic/design/"/>
+      <category term="design" scheme="https://blog.honk.wang/categories/ic/design/"/>
     
     
-      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="cdc" scheme="https://honk.wang/tags/cdc/"/>
+      <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
     
   </entry>
   
   <entry>
     <title>IC Design Flow</title>
-    <link href="https://honk.wang/posts/IC-Design-Flow/"/>
-    <id>https://honk.wang/posts/IC-Design-Flow/</id>
+    <link href="https://blog.honk.wang/posts/IC-Design-Flow/"/>
+    <id>https://blog.honk.wang/posts/IC-Design-Flow/</id>
     <published>2020-03-15T12:10:42.000Z</published>
-    <updated>2020-09-17T13:53:49.919Z</updated>
+    <updated>2020-10-31T11:25:54.923Z</updated>
     
     <summary type="html">
     
@@ -195,21 +197,21 @@
     </summary>
     
     
-      <category term="ic" scheme="https://honk.wang/categories/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
     
-      <category term="flow" scheme="https://honk.wang/categories/ic/flow/"/>
+      <category term="flow" scheme="https://blog.honk.wang/categories/ic/flow/"/>
     
     
-      <category term="ic" scheme="https://honk.wang/tags/ic/"/>
+      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
   </entry>
   
   <entry>
     <title>Gvim-Verilog-Handbook</title>
-    <link href="https://honk.wang/posts/Gvim-Verilog-HB/"/>
-    <id>https://honk.wang/posts/Gvim-Verilog-HB/</id>
+    <link href="https://blog.honk.wang/posts/Gvim-Verilog-HB/"/>
+    <id>https://blog.honk.wang/posts/Gvim-Verilog-HB/</id>
     <published>2020-03-06T15:54:16.000Z</published>
-    <updated>2020-09-17T13:53:49.016Z</updated>
+    <updated>2020-10-31T11:25:55.483Z</updated>
     
     <summary type="html">
     
@@ -218,23 +220,23 @@
     </summary>
     
     
-      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
-      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
-      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
-      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>Gvim-Verilog-Env</title>
-    <link href="https://honk.wang/posts/Gvim-Verilog-env/"/>
-    <id>https://honk.wang/posts/Gvim-Verilog-env/</id>
+    <link href="https://blog.honk.wang/posts/Gvim-Verilog-env/"/>
+    <id>https://blog.honk.wang/posts/Gvim-Verilog-env/</id>
     <published>2020-02-23T11:19:27.000Z</published>
-    <updated>2020-09-17T13:53:49.317Z</updated>
+    <updated>2020-11-02T16:03:42.844Z</updated>
     
     <summary type="html">
     
@@ -243,23 +245,23 @@
     </summary>
     
     
-      <category term="editor" scheme="https://honk.wang/categories/editor/"/>
+      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
-      <category term="verilog" scheme="https://honk.wang/tags/verilog/"/>
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
-      <category term="gvim" scheme="https://honk.wang/tags/gvim/"/>
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
-      <category term="vim" scheme="https://honk.wang/tags/vim/"/>
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>hexo&amp;butterfly</title>
-    <link href="https://honk.wang/posts/hexo-butterfly/"/>
-    <id>https://honk.wang/posts/hexo-butterfly/</id>
+    <link href="https://blog.honk.wang/posts/Hexo-Butterfly/"/>
+    <id>https://blog.honk.wang/posts/Hexo-Butterfly/</id>
     <published>2019-11-10T07:10:42.000Z</published>
-    <updated>2020-09-19T01:43:32.912Z</updated>
+    <updated>2020-10-31T11:25:55.595Z</updated>
     
     <summary type="html">
     
@@ -268,21 +270,21 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
+      <category term="hexo" scheme="https://blog.honk.wang/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="https://honk.wang/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.honk.wang/tags/hexo/"/>
     
-      <category term="butterfly" scheme="https://honk.wang/tags/butterfly/"/>
+      <category term="butterfly" scheme="https://blog.honk.wang/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客相关配置</title>
-    <link href="https://honk.wang/posts/blog-config/"/>
-    <id>https://honk.wang/posts/blog-config/</id>
+    <link href="https://blog.honk.wang/posts/Hexo-Blog-Config/"/>
+    <id>https://blog.honk.wang/posts/Hexo-Blog-Config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2020-09-17T13:53:48.890Z</updated>
+    <updated>2020-11-02T16:02:56.679Z</updated>
     
     <summary type="html">
     
@@ -291,7 +293,7 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://honk.wang/categories/hexo/"/>
+      <category term="hexo" scheme="https://blog.honk.wang/categories/hexo/"/>
     
     
   </entry>
