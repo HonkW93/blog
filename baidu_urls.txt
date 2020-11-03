@@ -8,5 +8,5 @@ https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/
 https://blog.honk.wang/posts/IC-Design-Flow/
 https://blog.honk.wang/posts/Gvim-Verilog-HB/
 https://blog.honk.wang/posts/Gvim-Verilog-env/
-https://blog.honk.wang/posts/Hexo-Butterfly/
+https://blog.honk.wang/posts/Hexo-And-Butterfly/
 https://blog.honk.wang/posts/Hexo-Blog-Config/

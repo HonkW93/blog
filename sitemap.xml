@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.honk.wang/posts/Hexo-And-Butterfly/</loc>
+    
+    <lastmod>2020-11-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.honk.wang/posts/Hexo-Blog-Config/</loc>
     
     <lastmod>2020-11-03</lastmod>
@@ -52,13 +59,6 @@
   
   <url>
     <loc>https://blog.honk.wang/posts/Windows-Software/</loc>
-    
-    <lastmod>2020-10-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/posts/Hexo-Butterfly/</loc>
     
     <lastmod>2020-10-31</lastmod>
     
@@ -200,20 +200,6 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/windows/</loc>
-    <lastmod>2020-11-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/software/</loc>
-    <lastmod>2020-11-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.honk.wang/tags/hexo/</loc>
     <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
@@ -229,6 +215,20 @@
   
   <url>
     <loc>https://blog.honk.wang/tags/butterfly/</loc>
+    <lastmod>2020-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/windows/</loc>
+    <lastmod>2020-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/software/</loc>
     <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -279,14 +279,14 @@
 
   
   <url>
-    <loc>https://blog.honk.wang/categories/tools/</loc>
+    <loc>https://blog.honk.wang/categories/hexo/</loc>
     <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/hexo/</loc>
+    <loc>https://blog.honk.wang/categories/tools/</loc>
     <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
