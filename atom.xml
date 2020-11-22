@@ -56,9 +56,9 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
   </entry>
   
@@ -102,11 +102,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
@@ -223,11 +223,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
@@ -248,11 +248,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
@@ -261,7 +261,7 @@
     <link href="https://blog.honk.wang/posts/Hexo-And-Butterfly/"/>
     <id>https://blog.honk.wang/posts/Hexo-And-Butterfly/</id>
     <published>2019-11-10T07:10:42.000Z</published>
-    <updated>2020-11-03T17:27:31.012Z</updated>
+    <updated>2020-11-22T03:46:22.513Z</updated>
     
     <summary type="html">
     
