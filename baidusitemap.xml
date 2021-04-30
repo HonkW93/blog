@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog.honk.wang/posts/AutoMatic/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.honk.wang/posts/Vim-Adventure/</loc>
+    <lastmod>2021-04-30</lastmod>
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/Cordic-Algorithm/</loc>
     <lastmod>2021-04-19</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.honk.wang/posts/Vim-Adventure/</loc>
-    <lastmod>2021-03-22</lastmod>
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/Hexo-Blog-Construction/</loc>

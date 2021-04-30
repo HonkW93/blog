@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-04-29T16:58:41.676Z</updated>
+  <updated>2021-04-30T12:43:44.692Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -17,15 +17,15 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Vimcript-AutoMatic-Verilog</title>
+    <title>Vimscript-AutoMatic-Verilog</title>
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-04-29T16:58:41.676Z</updated>
+    <updated>2021-04-30T12:43:44.692Z</updated>
     
     <summary type="html">
     
-      Vim自动化Verilog的脚本
+      一款基于Vimscript的自动化verilog脚本
     
     </summary>
     
@@ -69,7 +69,7 @@
     <link href="https://blog.honk.wang/posts/Vim-Adventure/"/>
     <id>https://blog.honk.wang/posts/Vim-Adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2021-03-22T15:38:17.401Z</updated>
+    <updated>2021-04-30T10:26:37.346Z</updated>
     
     <summary type="html">
     
