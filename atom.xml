@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-05-09T13:11:35.587Z</updated>
+  <updated>2021-05-10T16:54:21.791Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Interview</title>
+    <link href="https://blog.honk.wang/posts/interview/"/>
+    <id>https://blog.honk.wang/posts/interview/</id>
+    <published>2021-05-10T14:24:27.000Z</published>
+    <updated>2021-05-10T16:54:21.791Z</updated>
+    
+    <summary type="html">
+    
+      Find My Own Solution
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="interview" scheme="https://blog.honk.wang/categories/ic/interview/"/>
+    
+    
+      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vimscript-AutoMatic-Verilog</title>
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-05-09T13:11:35.587Z</updated>
+    <updated>2021-05-10T16:58:16.455Z</updated>
     
     <summary type="html">
     
@@ -30,7 +53,9 @@
     </summary>
     
     
-      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
@@ -46,7 +71,7 @@
     <link href="https://blog.honk.wang/posts/Windows-Software/"/>
     <id>https://blog.honk.wang/posts/Windows-Software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2020-10-31T11:25:55.688Z</updated>
+    <updated>2021-05-10T14:27:26.051Z</updated>
     
     <summary type="html">
     
@@ -69,7 +94,7 @@
     <link href="https://blog.honk.wang/posts/Vim-Adventure/"/>
     <id>https://blog.honk.wang/posts/Vim-Adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2021-04-30T10:26:37.346Z</updated>
+    <updated>2021-05-10T14:26:31.579Z</updated>
     
     <summary type="html">
     
@@ -78,7 +103,9 @@
     </summary>
     
     
-      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
@@ -115,7 +142,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-Final/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-Final/</id>
     <published>2020-05-13T15:13:50.000Z</published>
-    <updated>2020-10-31T11:25:55.507Z</updated>
+    <updated>2021-05-10T16:58:08.684Z</updated>
     
     <summary type="html">
     
@@ -124,7 +151,9 @@
     </summary>
     
     
-      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
@@ -236,7 +265,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-HB/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-HB/</id>
     <published>2020-03-06T15:54:16.000Z</published>
-    <updated>2020-10-31T11:25:55.483Z</updated>
+    <updated>2021-05-10T14:26:24.031Z</updated>
     
     <summary type="html">
     
@@ -245,7 +274,9 @@
     </summary>
     
     
-      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
@@ -261,7 +292,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-env/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-env/</id>
     <published>2020-02-23T11:19:27.000Z</published>
-    <updated>2020-11-02T16:03:42.844Z</updated>
+    <updated>2021-05-10T14:26:10.517Z</updated>
     
     <summary type="html">
     
@@ -270,7 +301,9 @@
     </summary>
     
     
-      <category term="editor" scheme="https://blog.honk.wang/categories/editor/"/>
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
