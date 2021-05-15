@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-05-10T16:54:21.791Z</updated>
+  <updated>2021-05-15T08:20:09.957Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -17,15 +17,15 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Interview</title>
-    <link href="https://blog.honk.wang/posts/interview/"/>
-    <id>https://blog.honk.wang/posts/interview/</id>
+    <title>Interview Exercise</title>
+    <link href="https://blog.honk.wang/posts/interview-exercise/"/>
+    <id>https://blog.honk.wang/posts/interview-exercise/</id>
     <published>2021-05-10T14:24:27.000Z</published>
-    <updated>2021-05-10T16:54:21.791Z</updated>
+    <updated>2021-05-15T08:20:09.957Z</updated>
     
     <summary type="html">
     
-      Find My Own Solution
+      Find Your Own Solution, Exercise More &amp; Consolidate What You&#39;ve Learnt
     
     </summary>
     
@@ -37,6 +37,8 @@
     
       <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
     
+      <category term="exercise" scheme="https://blog.honk.wang/tags/exercise/"/>
+    
   </entry>
   
   <entry>
@@ -44,7 +46,7 @@
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-05-10T16:58:16.455Z</updated>
+    <updated>2021-05-15T08:25:04.813Z</updated>
     
     <summary type="html">
     
