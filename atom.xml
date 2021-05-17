@@ -323,7 +323,7 @@
     <link href="https://blog.honk.wang/posts/Clock-Divider/"/>
     <id>https://blog.honk.wang/posts/Clock-Divider/</id>
     <published>2019-12-15T16:14:13.000Z</published>
-    <updated>2021-05-15T16:24:48.208Z</updated>
+    <updated>2021-05-17T16:51:10.112Z</updated>
     
     <summary type="html">
     
@@ -339,9 +339,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
-    
       <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
+    
+      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
     
   </entry>
   
