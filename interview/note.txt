@@ -1,0 +1,7 @@
+1. togglelist
+details open="" 换为 details
+参考
+https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
+
+2. encryption
+参考https://www.maxlaumeister.com/pagecrypt/
