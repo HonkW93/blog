@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.honk.wang/posts/Clock-Divider/</loc>
+    <lastmod>2021-06-07</lastmod>
+  </url>
+  <url>
     <loc>https://blog.honk.wang/posts/AutoMatic/</loc>
     <lastmod>2021-06-07</lastmod>
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/Vim-Adventure/</loc>
     <lastmod>2021-05-19</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.honk.wang/posts/Clock-Divider/</loc>
-    <lastmod>2021-05-17</lastmod>
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/Hexo-Blog-Construction/</loc>
