@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-05-16T16:29:16.101Z</updated>
+  <updated>2021-07-25T08:24:37.853Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vim-Plugin</title>
+    <link href="https://blog.honk.wang/posts/Vim-Plugin/"/>
+    <id>https://blog.honk.wang/posts/Vim-Plugin/</id>
+    <published>2021-07-25T07:29:28.000Z</published>
+    <updated>2021-07-25T08:24:37.853Z</updated>
+    
+    <summary type="html">
+    
+      本文介绍个人使用的Gvim插件
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
+    
+    
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+  </entry>
   
   <entry>
     <title>Interview Exercise</title>
@@ -60,9 +85,9 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="vimscript" scheme="https://blog.honk.wang/tags/vimscript/"/>
     
@@ -158,11 +183,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
   </entry>
   
@@ -283,11 +308,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
   </entry>
   
@@ -310,11 +335,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
   </entry>
   

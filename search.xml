@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Vim-Plugin</title>
+      <link href="/posts/Vim-Plugin/"/>
+      <url>/posts/Vim-Plugin/</url>
+      
+        <content type="html"><![CDATA[<p>关于<code>Gvim</code>编写<code>Verilog</code>的相关配置和定制功能可以参考之前的三篇文章。</p><p><a href="/posts/Gvim-Verilog-env/">初篇|环境配置</a>（几乎所有参考的插件和脚本在此篇）</p><p><a href="/posts/Gvim-Verilog-HB/">中篇|使用手册</a>（部分功能的使用说明）</p><p><a href="/posts/Gvim-Verilog-Final/">终篇效果</a>（最终效果图）</p><p>本篇只记录<code>Vim</code>相关的一些插件用法及使用中的问题作为参考文档。</p><h1 id="basic"><a class="markdownIt-Anchor" href="#basic"></a> Basic</h1><h2 id="vim-plug"><a class="markdownIt-Anchor" href="#vim-plug"></a> vim-plug</h2><blockquote><p>vim插件管理器</p><p><a href="https://github.com/junegunn/vim-plug">junegunn/vim-plug: Minimalist Vim Plugin Manager</a></p></blockquote><p>一个Vim插件管理器，利用异步并行可以快速地安装、更新和卸载插件。</p><ul><li><p>安装</p><p><code>:PlugInstall</code></p></li><li><p>卸载</p><p><code>:PlugClean</code></p></li><li><p>升级</p><p><code>:PlugUpdate</code></p></li><li><p>列表</p><p><code>:PlugStatus</code></p></li></ul><h2 id="nerdtree"><a class="markdownIt-Anchor" href="#nerdtree"></a> nerdtree</h2><blockquote><p>树形文件管理器</p><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim.</a></p></blockquote><ul><li><p>呼出</p><p><code>:NERDTree</code></p></li></ul><h2 id="tpope"><a class="markdownIt-Anchor" href="#tpope"></a> tpope</h2><blockquote><p><code>Tim Pope</code> 大神做的的几个<code>vim</code>必备插件</p><p><a href="https://github.com/tpope/vim-surround">tpope/vim-surround: surround.vim: quoting/parenthesizing made simple</a></p><p><a href="https://github.com/tpope/vim-commentary">tpope/vim-commentary: commentary.vim: comment stuff out</a></p><p><a href="https://github.com/tpope/vim-speeddating">tpope/vim-speeddating: speeddating.vim: use CTRL-A/CTRL-X to increment dates, times, and more</a></p><p><a href="https://github.com/tpope/vim-repeat">tpope/vim-repeat: repeat.vim: enable repeating supported plugin maps with “.” </a></p></blockquote><h3 id="vim-surround"><a class="markdownIt-Anchor" href="#vim-surround"></a> vim-surround</h3><blockquote><p>自动环绕（围绕）</p></blockquote><ul><li><p>新增（）-<code>ys</code></p><p>假设<code>inner word</code>添加<code>[]</code></p><p><code>ysiw]</code></p><p>假设<code>line</code>添加’()’</p><p><code>yss(</code></p></li><li><p>删除 - <code>ds</code></p><p>假设删除<code>()</code></p><p><code>ds&#123;</code></p></li><li><p>改变 - <code>cs</code></p></li><li><p>可视模式 - <code>S</code></p><p><code>S(</code></p></li></ul><h3 id="vim-commentary"><a class="markdownIt-Anchor" href="#vim-commentary"></a> vim-commentary</h3><blockquote><p>快速注释</p></blockquote><ul><li><p>注释行</p><p><code>gcc</code></p></li><li><p>注释对象</p><p><code>gc</code>+<code>object</code></p></li></ul><h3 id="vim-speeddating"><a class="markdownIt-Anchor" href="#vim-speeddating"></a> vim-speeddating</h3><blockquote><p>强化<code>&lt;C-A&gt;</code>和<code>&lt;C-X&gt;</code>，支持时间加减</p></blockquote><h3 id="vim-repeat"><a class="markdownIt-Anchor" href="#vim-repeat"></a> vim-repeat</h3><blockquote><p>使用’.'重复以上插件的动作</p></blockquote><h2 id="easymotion"><a class="markdownIt-Anchor" href="#easymotion"></a> easymotion</h2><blockquote><p>快速移动光标</p><p><a href="https://github.com/easymotion/vim-easymotion">easymotion/vim-easymotion: Vim motions on speed!</a></p></blockquote><p>参考<a href="https://zhuanlan.zhihu.com/p/89844330">vim easymotion 瞬间移动大法[视频] - 知乎</a></p><h1 id="beautify"><a class="markdownIt-Anchor" href="#beautify"></a> Beautify</h1><h2 id="vim-airline"><a class="markdownIt-Anchor" href="#vim-airline"></a> vim-airline</h2><blockquote><p>状态栏美化，且支持另外的多个插件</p><p><a href="https://github.com/vim-airline/vim-airline">vim-airline/vim-airline: lean &amp; mean status/tabline for vim that’s light as air</a></p></blockquote><h1 id="function"><a class="markdownIt-Anchor" href="#function"></a> Function</h1><h2 id="autocomplpop"><a class="markdownIt-Anchor" href="#autocomplpop"></a> AutoComplPop</h2><blockquote><p>比较简单的一个自动补全插件</p><p><a href="https://github.com/vim-scripts/AutoComplPop">vim-scripts/AutoComplPop: Automatically opens popup menu for completions</a></p></blockquote><h2 id="load_template"><a class="markdownIt-Anchor" href="#load_template"></a> load_template</h2><blockquote><p>载入模板插件</p><p><a href="https://github.com/vim-scripts/load_template">vim-scripts/load_template: Loading templates as html,makefile,class … and you can make template yourself!</a></p></blockquote><h2 id="visincr"><a class="markdownIt-Anchor" href="#visincr"></a> VisIncr</h2><blockquote><p>数字列操作</p><p><a href="https://github.com/vim-scripts/VisIncr">vim-scripts/VisIncr: Produce increasing/decreasing columns of numbers, dates, or daynames</a></p></blockquote><h2 id="ale"><a class="markdownIt-Anchor" href="#ale"></a> ALE</h2><blockquote><p>代码检查插件</p><p><a href="https://github.com/dense-analysis/ale">dense-analysis/ale: Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support</a></p></blockquote><p><code>ALE</code>作为<code>verilog</code>的代码检查工具时，外置<code>Linter</code>返回的文本在<code>Windows</code>系统下会存在问题（正则表达式不匹配），需要自行替换其正则表达式。详情可参考：</p><ul><li><a href="https://github.com/dense-analysis/ale">dense-analysis/ale: Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support</a></li><li><a href="https://github.com/dense-analysis/ale/pull/3346">Fix ghdl and vcom linter regex patterns to support Windows paths (i.e. drive letter and colon C:) by azvanderpas · Pull Request #3346 · dense-analysis/ale</a></li></ul><p>以我的为例(iverilog.vim)：(可能出现的问题语句为<code>C:\Users\Honk\AppData\Local\Temp\VIABCBF.tmp\PipelineMIPS.v:41: syntax error</code>，原<code>pattern</code>无法匹配)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;let l:pattern = &#x27;^[^:]\+:\(\d\+\): \(warning\|error\|syntax error\)\(: \(.\+\)\)\?&#x27;</span></span><br><span class="line"><span class="string">let l:pattern = &#x27;^.\+:\(\d\+\): \(warning\|error\|syntax error\)\(: \(.\+\)\)\?&#x27;</span></span><br></pre></td></tr></table></figure><h1 id="draw"><a class="markdownIt-Anchor" href="#draw"></a> Draw</h1><h2 id="tablify"><a class="markdownIt-Anchor" href="#tablify"></a> tablify</h2><blockquote><p>画表格</p><p><a href="https://github.com/stormherz/tablify">stormherz/tablify: Tablify is a VIM plugin that turns simple structured data into nice-looking tables</a></p></blockquote><h2 id="drawit"><a class="markdownIt-Anchor" href="#drawit"></a> DrawIt</h2><blockquote><p>画ASCII图</p><p><a href="https://github.com/vim-scripts/DrawIt">vim-scripts/DrawIt: Ascii drawing plugin: lines, ellipses, arrows, fills, and more!</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> ic </category>
+          
+          <category> editor </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gvim </tag>
+            
+            <tag> vim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Interview Exercise</title>
       <link href="/posts/interview-exercise/"/>
       <url>/posts/interview-exercise/</url>
@@ -51,9 +80,9 @@
       
         <tags>
             
-            <tag> verilog </tag>
-            
             <tag> vim </tag>
+            
+            <tag> verilog </tag>
             
             <tag> vimscript </tag>
             
@@ -165,11 +194,11 @@
       
         <tags>
             
-            <tag> verilog </tag>
-            
             <tag> gvim </tag>
             
             <tag> vim </tag>
+            
+            <tag> verilog </tag>
             
         </tags>
       
@@ -310,11 +339,11 @@
       
         <tags>
             
-            <tag> verilog </tag>
-            
             <tag> gvim </tag>
             
             <tag> vim </tag>
+            
+            <tag> verilog </tag>
             
         </tags>
       
@@ -341,11 +370,11 @@
       
         <tags>
             
-            <tag> verilog </tag>
-            
             <tag> gvim </tag>
             
             <tag> vim </tag>
+            
+            <tag> verilog </tag>
             
         </tags>
       
