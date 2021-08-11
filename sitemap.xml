@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.honk.wang/love/index.html</loc>
+    
+    <lastmod>2021-08-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.honk.wang/posts/Windows-Software/</loc>
     
     <lastmod>2021-08-11</lastmod>
@@ -122,13 +129,6 @@
   
   <url>
     <loc>https://blog.honk.wang/link/index.html</loc>
-    
-    <lastmod>2021-08-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/love/index.html</loc>
     
     <lastmod>2021-08-11</lastmod>
     
