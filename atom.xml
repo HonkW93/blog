@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-08-01T07:19:11.034Z</updated>
+  <updated>2021-08-11T05:38:16.226Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.honk.wang/posts/Vim-Plugin/"/>
     <id>https://blog.honk.wang/posts/Vim-Plugin/</id>
     <published>2021-07-25T07:29:28.000Z</published>
-    <updated>2021-08-01T07:19:11.034Z</updated>
+    <updated>2021-08-11T05:38:16.226Z</updated>
     
     <summary type="html">
     
@@ -71,7 +71,7 @@
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-08-02T15:21:42.460Z</updated>
+    <updated>2021-08-11T05:38:12.267Z</updated>
     
     <summary type="html">
     
@@ -98,7 +98,7 @@
     <link href="https://blog.honk.wang/posts/Windows-Software/"/>
     <id>https://blog.honk.wang/posts/Windows-Software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2021-05-10T14:27:26.051Z</updated>
+    <updated>2021-08-11T06:03:24.605Z</updated>
     
     <summary type="html">
     
@@ -121,7 +121,7 @@
     <link href="https://blog.honk.wang/posts/Vim-Adventure/"/>
     <id>https://blog.honk.wang/posts/Vim-Adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2021-05-19T15:36:10.385Z</updated>
+    <updated>2021-08-11T05:38:13.061Z</updated>
     
     <summary type="html">
     
@@ -146,7 +146,7 @@
     <link href="https://blog.honk.wang/posts/Hexo-Blog-Construction/"/>
     <id>https://blog.honk.wang/posts/Hexo-Blog-Construction/</id>
     <published>2020-05-17T14:14:13.000Z</published>
-    <updated>2021-05-16T16:53:14.149Z</updated>
+    <updated>2021-08-11T05:38:20.464Z</updated>
     
     <summary type="html">
     
@@ -169,7 +169,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-Final/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-Final/</id>
     <published>2020-05-13T15:13:50.000Z</published>
-    <updated>2021-05-10T16:58:08.684Z</updated>
+    <updated>2021-08-11T05:48:17.982Z</updated>
     
     <summary type="html">
     
@@ -196,7 +196,7 @@
     <link href="https://blog.honk.wang/posts/UVM-Intro/"/>
     <id>https://blog.honk.wang/posts/UVM-Intro/</id>
     <published>2020-04-04T02:09:10.000Z</published>
-    <updated>2020-10-31T11:25:52.787Z</updated>
+    <updated>2021-08-11T05:38:09.382Z</updated>
     
     <summary type="html">
     
@@ -221,7 +221,7 @@
     <link href="https://blog.honk.wang/posts/Cordic-Algorithm/"/>
     <id>https://blog.honk.wang/posts/Cordic-Algorithm/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2021-04-19T14:18:19.669Z</updated>
+    <updated>2021-08-11T05:38:10.414Z</updated>
     
     <summary type="html">
     
@@ -244,7 +244,7 @@
     <link href="https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
     <id>https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
     <published>2020-03-16T16:31:34.000Z</published>
-    <updated>2021-05-15T16:24:28.233Z</updated>
+    <updated>2021-08-11T05:38:16.954Z</updated>
     
     <summary type="html">
     
@@ -271,7 +271,7 @@
     <link href="https://blog.honk.wang/posts/IC-Design-Flow/"/>
     <id>https://blog.honk.wang/posts/IC-Design-Flow/</id>
     <published>2020-03-15T12:10:42.000Z</published>
-    <updated>2020-10-31T11:25:54.923Z</updated>
+    <updated>2021-08-11T05:38:11.337Z</updated>
     
     <summary type="html">
     
@@ -294,7 +294,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-HB/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-HB/</id>
     <published>2020-03-06T15:54:16.000Z</published>
-    <updated>2021-05-10T14:26:24.031Z</updated>
+    <updated>2021-08-11T05:38:13.744Z</updated>
     
     <summary type="html">
     
@@ -321,7 +321,7 @@
     <link href="https://blog.honk.wang/posts/Gvim-Verilog-env/"/>
     <id>https://blog.honk.wang/posts/Gvim-Verilog-env/</id>
     <published>2020-02-23T11:19:27.000Z</published>
-    <updated>2021-05-10T14:26:10.517Z</updated>
+    <updated>2021-08-11T05:38:15.581Z</updated>
     
     <summary type="html">
     
@@ -348,7 +348,7 @@
     <link href="https://blog.honk.wang/posts/Clock-Divider/"/>
     <id>https://blog.honk.wang/posts/Clock-Divider/</id>
     <published>2019-12-15T16:14:13.000Z</published>
-    <updated>2021-07-25T08:31:51.104Z</updated>
+    <updated>2021-08-11T05:38:17.973Z</updated>
     
     <summary type="html">
     
@@ -375,7 +375,7 @@
     <link href="https://blog.honk.wang/posts/Hexo-And-Butterfly/"/>
     <id>https://blog.honk.wang/posts/Hexo-And-Butterfly/</id>
     <published>2019-11-10T07:10:42.000Z</published>
-    <updated>2021-05-16T15:56:49.014Z</updated>
+    <updated>2021-08-11T05:38:19.054Z</updated>
     
     <summary type="html">
     
@@ -398,7 +398,7 @@
     <link href="https://blog.honk.wang/posts/Hexo-Blog-Config/"/>
     <id>https://blog.honk.wang/posts/Hexo-Blog-Config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2021-05-16T16:34:24.691Z</updated>
+    <updated>2021-08-11T05:38:19.849Z</updated>
     
     <summary type="html">
     
