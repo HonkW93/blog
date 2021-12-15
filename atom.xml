@@ -221,7 +221,7 @@
     <link href="https://blog.honk.wang/posts/Cordic-Algorithm/"/>
     <id>https://blog.honk.wang/posts/Cordic-Algorithm/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2021-08-11T05:38:10.414Z</updated>
+    <updated>2021-12-15T11:35:20.361Z</updated>
     
     <summary type="html">
     
@@ -232,7 +232,7 @@
     
       <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
     
-      <category term="math" scheme="https://blog.honk.wang/categories/ic/math/"/>
+      <category term="design" scheme="https://blog.honk.wang/categories/ic/design/"/>
     
     
       <category term="cordic" scheme="https://blog.honk.wang/tags/cordic/"/>
@@ -364,9 +364,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
       <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
+    
+      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
     
   </entry>
   
