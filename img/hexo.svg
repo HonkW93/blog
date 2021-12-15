@@ -1,20 +1,20 @@
-<svg width="93.1" height="20" viewBox="0 0 931 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Hexo: 5.0.0">
-  <title>Hexo: 5.0.0</title>
+<svg width="77.1" height="20" viewBox="0 0 771 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hexo: 5.4.0">
+  <title>Hexo: 5.4.0</title>
   <linearGradient id="a" x2="0" y2="100%">
     <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <mask id="m"><rect width="931" height="200" rx="30" fill="#FFF"/></mask>
+  <mask id="m"><rect width="771" height="200" rx="30" fill="#FFF"/></mask>
   <g mask="url(#m)">
-    <rect width="541" height="200" fill="#555"/>
-    <rect width="390" height="200" fill="#0E83CD" x="541"/>
-    <rect width="931" height="200" fill="url(#a)"/>
+    <rect width="381" height="200" fill="#555"/>
+    <rect width="390" height="200" fill="#0E83CD" x="381"/>
+    <rect width="771" height="200" fill="url(#a)"/>
   </g>
   <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
-    <text x="220" y="148" textLength="281" fill="#000" opacity="0.25">Hexo</text>
-    <text x="210" y="138" textLength="281">Hexo</text>
-    <text x="596" y="148" textLength="290" fill="#000" opacity="0.25">5.0.0</text>
-    <text x="586" y="138" textLength="290">5.0.0</text>
+    <text x="60" y="148" textLength="281" fill="#000" opacity="0.25">Hexo</text>
+    <text x="50" y="138" textLength="281">Hexo</text>
+    <text x="436" y="148" textLength="290" fill="#000" opacity="0.25">5.4.0</text>
+    <text x="426" y="138" textLength="290">5.4.0</text>
   </g>
-  <image x="40" y="35" width="130" height="130" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTk3MjUxMzE3NDExIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIxMDciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTEyIDAuMjk4NjY3TDY2Ljk4NjY2NyAyNTguMzg5MzMzVjc3MC4xMzMzMzNMNTEyIDEwMjMuNzg2NjY3bDQ0NS4wMTMzMzMtMjU4LjA5MDY2N1YyNTMuOTUyTDUxMiAwLjI5ODY2N3ogbTIwNC43MTQ2NjcgNzI5LjgxMzMzM2wtNDAuMDY0IDIyLjIyOTMzMy00MC4wNjQtMjIuMjI5MzMzVjU1Mi4xMDY2NjdIMzg3LjQxMzMzM3YxNzguMDA1MzMzbC00MC4xMDY2NjYgMjIuMjI5MzMzLTQwLjAyMTMzNC0yMi4yMjkzMzNWMjkzLjk3MzMzM2w0MC4wNjQtMjIuMjI5MzMzIDQwLjA2NCAyMi4yMjkzMzN2MTc4LjAwNTMzNGgyNDkuMTczMzM0VjI5My45NzMzMzNsNDAuMTA2NjY2LTIyLjIyOTMzMyA0MC4wMjEzMzQgMjIuMjI5MzMzdjQzNi4xMzg2Njd6IiBwLWlkPSIyMTA4IiBmaWxsPSIjMTI5NmRiIiBkYXRhLXNwbS1hbmNob3ItaWQ9ImEzMTN4Ljc3ODEwNjkuMC5pMTIiIGNsYXNzPSJzZWxlY3RlZCI+PC9wYXRoPjwvc3ZnPg=="/>
+  
 </svg>

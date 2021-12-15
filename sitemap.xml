@@ -286,21 +286,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/windows/</loc>
-    <lastmod>2021-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/software/</loc>
-    <lastmod>2021-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.honk.wang/tags/hexo/</loc>
+    <lastmod>2021-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/blog/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -314,7 +307,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/blog/</loc>
+    <loc>https://blog.honk.wang/tags/windows/</loc>
+    <lastmod>2021-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/software/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -370,14 +370,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/exercise/</loc>
+    <loc>https://blog.honk.wang/tags/vimscript/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/vimscript/</loc>
+    <loc>https://blog.honk.wang/tags/exercise/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -387,6 +387,13 @@
   
   <url>
     <loc>https://blog.honk.wang/categories/ic/</loc>
+    <lastmod>2021-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/categories/hexo/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -407,13 +414,6 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/hexo/</loc>
-    <lastmod>2021-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.honk.wang/categories/ic/design/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -421,14 +421,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/ic/flow/</loc>
+    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
+    <loc>https://blog.honk.wang/categories/ic/flow/</loc>
     <lastmod>2021-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
