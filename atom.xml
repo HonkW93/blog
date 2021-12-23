@@ -35,9 +35,9 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
   </entry>
   
@@ -71,7 +71,7 @@
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-12-04T02:21:37.986Z</updated>
+    <updated>2021-12-23T17:00:05.994Z</updated>
     
     <summary type="html">
     
@@ -85,11 +85,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
       <category term="vimscript" scheme="https://blog.honk.wang/tags/vimscript/"/>
+    
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
   </entry>
   
@@ -135,9 +135,9 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
+      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
     
   </entry>
   
@@ -183,11 +183,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
@@ -308,11 +308,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
@@ -335,11 +335,11 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
+    
       <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
