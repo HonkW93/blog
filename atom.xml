@@ -71,7 +71,7 @@
     <link href="https://blog.honk.wang/posts/AutoMatic/"/>
     <id>https://blog.honk.wang/posts/AutoMatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2021-12-23T17:00:05.994Z</updated>
+    <updated>2022-01-04T12:44:14.186Z</updated>
     
     <summary type="html">
     
@@ -260,9 +260,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
       <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
+    
+      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
     
   </entry>
   
@@ -364,9 +364,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
-    
       <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
+    
+      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
     
   </entry>
   
