@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2021-08-11T05:38:16.226Z</updated>
+  <updated>2022-02-17T13:57:22.181Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.honk.wang/posts/Vim-Plugin/"/>
     <id>https://blog.honk.wang/posts/Vim-Plugin/</id>
     <published>2021-07-25T07:29:28.000Z</published>
-    <updated>2021-08-11T05:38:16.226Z</updated>
+    <updated>2022-02-17T13:57:22.181Z</updated>
     
     <summary type="html">
     
@@ -260,9 +260,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
-    
       <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
+    
+      <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
     
   </entry>
   
