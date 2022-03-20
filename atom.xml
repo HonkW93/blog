@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2022-02-17T13:57:22.181Z</updated>
+  <updated>2022-02-25T12:59:55.755Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Vim-Plugin</title>
-    <link href="https://blog.honk.wang/posts/Vim-Plugin/"/>
-    <id>https://blog.honk.wang/posts/Vim-Plugin/</id>
-    <published>2021-07-25T07:29:28.000Z</published>
-    <updated>2022-02-17T13:57:22.181Z</updated>
-    
-    <summary type="html">
-    
-      本文介绍个人使用的Gvim插件
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
-    
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
-    
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-  </entry>
   
   <entry>
     <title>Interview Exercise</title>
@@ -260,9 +235,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
       <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
+    
+      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
     
   </entry>
   
@@ -364,9 +339,9 @@
     
       <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
     
-      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
-    
       <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
+    
+      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
     
   </entry>
   
