@@ -37,7 +37,7 @@
       <link href="/posts/AutoMatic/"/>
       <url>/posts/AutoMatic/</url>
       
-        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated"><p>有问题先看文档，再看评论区，依旧有问题可留言。</p><p></p></div><p>最新脚本地址：<a href="https://github.com/HonkW93/automatic-verilog/">GitHub</a></p><p>使用<a href="https://docsify.js.org/#/?id=docsify">docsify</a>优化文档结构，文档迁移至：<a href="https://automatic-verilog.honk.wang/">automatic-verilog文档</a></p><p>此页面只保留评论区作为问题留言板。</p><p>2022.4.27更新：终于搬完家了最近，之前好像有好几个人提问题，有的是微信，有的是留言，如果我忘记了麻烦再发个消息提醒我一下。搬家弄太久了，我已经忘记了这些问题。。。</p>]]></content>
+        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated"><p>有问题先看文档，再看评论区，依旧有问题可留言。</p><p></p></div><p>最新脚本地址：<a href="https://github.com/HonkW93/automatic-verilog/">GitHub</a></p><p>使用<a href="https://docsify.js.org/#/?id=docsify">docsify</a>优化文档结构，文档迁移至：<a href="https://automatic-verilog.honk.wang/">automatic-verilog文档</a></p><p>此页面只保留评论区作为问题留言板。</p><p>2022.5.25更新：最新V1.5版本所有全局配置的名称进行了统一的变更方便后续管理，无法兼容之前的版本，请各位注意。由于本次跨版本升级改动较大，此版本可能有部分问题，希望各位及时留言反馈，谢谢。</p>]]></content>
       
       
       <categories>
@@ -254,9 +254,9 @@
             
             <tag> ic </tag>
             
-            <tag> interview </tag>
-            
             <tag> cdc </tag>
+            
+            <tag> interview </tag>
             
         </tags>
       
@@ -374,9 +374,9 @@
             
             <tag> ic </tag>
             
-            <tag> clock divider </tag>
-            
             <tag> interview </tag>
+            
+            <tag> clock divider </tag>
             
         </tags>
       
