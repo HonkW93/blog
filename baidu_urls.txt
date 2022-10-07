@@ -4,7 +4,6 @@ https://blog.honk.wang/posts/Windows-Software/
 https://blog.honk.wang/posts/Vim-Adventure/
 https://blog.honk.wang/posts/Hexo-Blog-Construction/
 https://blog.honk.wang/posts/Gvim-Verilog-Final/
-https://blog.honk.wang/posts/UVM-Intro/
 https://blog.honk.wang/posts/Cordic-Algorithm/
 https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/
 https://blog.honk.wang/posts/IC-Design-Flow/

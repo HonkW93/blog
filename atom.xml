@@ -167,31 +167,6 @@
   </entry>
   
   <entry>
-    <title>UVM Intro</title>
-    <link href="https://blog.honk.wang/posts/UVM-Intro/"/>
-    <id>https://blog.honk.wang/posts/UVM-Intro/</id>
-    <published>2020-04-04T02:09:10.000Z</published>
-    <updated>2021-08-11T05:38:09.382Z</updated>
-    
-    <summary type="html">
-    
-      This is basic Introduction2UVM
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="verification" scheme="https://blog.honk.wang/categories/ic/verification/"/>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
-    
-      <category term="uvm" scheme="https://blog.honk.wang/tags/uvm/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Cordic Algorithm</title>
     <link href="https://blog.honk.wang/posts/Cordic-Algorithm/"/>
     <id>https://blog.honk.wang/posts/Cordic-Algorithm/</id>
