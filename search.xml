@@ -37,7 +37,7 @@
       <link href="/posts/AutoMatic/"/>
       <url>/posts/AutoMatic/</url>
       
-        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated"><p>有问题先看文档，再看评论区，依旧有问题可留言。</p><p></p></div><p>最新脚本地址：<a href="https://github.com/HonkW93/automatic-verilog/">GitHub</a></p><p>使用<a href="https://docsify.js.org/#/?id=docsify">docsify</a>优化文档结构，文档迁移至：<a href="https://automatic-verilog.honk.wang/">automatic-verilog文档</a></p><p>此页面只保留评论区作为问题留言板。</p><p>2022.5.25更新：V1.5无法兼容之前的版本，请各位注意。有问题留言反馈，谢谢。</p>]]></content>
+        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated"><p>有问题先看文档，再看评论区，依旧有问题可留言。</p><p></p></div><p>最新脚本地址：<a href="https://github.com/HonkW93/automatic-verilog/">GitHub</a></p><p>使用<a href="https://docsify.js.org/#/?id=docsify">docsify</a>优化文档结构，文档迁移至：<a href="https://automatic-verilog.honk.wang/">automatic-verilog文档</a></p><p>此页面只保留评论区作为问题留言板。</p><p>2022.5.25更新：V1.5无法兼容之前的版本，请各位注意。</p><p>2022.12.6更新：当前最新代码可能与文档有部分不一致，暂时没时间更新文档，有问题留言反馈，谢谢。</p>]]></content>
       
       
       <categories>
