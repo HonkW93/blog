@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2022-12-30T14:38:58.735Z</updated>
+  <updated>2024-07-14T03:19:53.500Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Interview Exercise</title>
-    <link href="https://blog.honk.wang/posts/interview-exercise/"/>
-    <id>https://blog.honk.wang/posts/interview-exercise/</id>
-    <published>2021-05-10T14:24:27.000Z</published>
-    <updated>2022-12-30T14:38:58.735Z</updated>
-    
-    <summary type="html">
-    
-      Find Your Own Solution, Exercise More &amp; Consolidate What You&#39;ve Learnt
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="interview" scheme="https://blog.honk.wang/categories/ic/interview/"/>
-    
-    
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
-      <category term="exercise" scheme="https://blog.honk.wang/tags/exercise/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Vimscript-AutoMatic-Verilog</title>
-    <link href="https://blog.honk.wang/posts/AutoMatic/"/>
-    <id>https://blog.honk.wang/posts/AutoMatic/</id>
+    <link href="https://blog.honk.wang/posts/vimscript-automatic/"/>
+    <id>https://blog.honk.wang/posts/vimscript-automatic/</id>
     <published>2021-04-19T14:26:09.000Z</published>
-    <updated>2022-12-06T15:51:32.044Z</updated>
+    <updated>2024-07-14T03:19:53.500Z</updated>
     
     <summary type="html">
     
@@ -60,20 +35,20 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
+      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
+    
       <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
       <category term="vimscript" scheme="https://blog.honk.wang/tags/vimscript/"/>
-    
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
     
   </entry>
   
   <entry>
     <title>Windows必装</title>
-    <link href="https://blog.honk.wang/posts/Windows-Software/"/>
-    <id>https://blog.honk.wang/posts/Windows-Software/</id>
+    <link href="https://blog.honk.wang/posts/windows-software/"/>
+    <id>https://blog.honk.wang/posts/windows-software/</id>
     <published>2020-06-13T12:07:15.000Z</published>
-    <updated>2021-08-11T06:03:24.605Z</updated>
+    <updated>2024-07-14T02:40:19.869Z</updated>
     
     <summary type="html">
     
@@ -93,10 +68,10 @@
   
   <entry>
     <title>Vim-Adventure</title>
-    <link href="https://blog.honk.wang/posts/Vim-Adventure/"/>
-    <id>https://blog.honk.wang/posts/Vim-Adventure/</id>
+    <link href="https://blog.honk.wang/posts/vim-adventure/"/>
+    <id>https://blog.honk.wang/posts/vim-adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2021-08-11T05:38:13.061Z</updated>
+    <updated>2024-07-14T08:54:32.539Z</updated>
     
     <summary type="html">
     
@@ -110,18 +85,18 @@
       <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
     
     
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
-    
       <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
+    
+      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo博客搭建</title>
-    <link href="https://blog.honk.wang/posts/Hexo-Blog-Construction/"/>
-    <id>https://blog.honk.wang/posts/Hexo-Blog-Construction/</id>
+    <title>hexo博客搭建</title>
+    <link href="https://blog.honk.wang/posts/hexo-blog-construction/"/>
+    <id>https://blog.honk.wang/posts/hexo-blog-construction/</id>
     <published>2020-05-17T14:14:13.000Z</published>
-    <updated>2021-12-27T13:04:24.254Z</updated>
+    <updated>2024-07-14T09:41:18.836Z</updated>
     
     <summary type="html">
     
@@ -140,38 +115,11 @@
   </entry>
   
   <entry>
-    <title>Gvim-Verilog-Final</title>
-    <link href="https://blog.honk.wang/posts/Gvim-Verilog-Final/"/>
-    <id>https://blog.honk.wang/posts/Gvim-Verilog-Final/</id>
-    <published>2020-05-13T15:13:50.000Z</published>
-    <updated>2021-08-11T05:48:17.982Z</updated>
-    
-    <summary type="html">
-    
-      本文介绍集成各个功能的Gvim在windows下用于编写Verilog的各种实现效果
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
-    
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
-    
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Cordic Algorithm</title>
-    <link href="https://blog.honk.wang/posts/Cordic-Algorithm/"/>
-    <id>https://blog.honk.wang/posts/Cordic-Algorithm/</id>
+    <link href="https://blog.honk.wang/posts/cordic-algorithm/"/>
+    <id>https://blog.honk.wang/posts/cordic-algorithm/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2021-12-15T11:35:20.361Z</updated>
+    <updated>2024-07-14T03:34:45.911Z</updated>
     
     <summary type="html">
     
@@ -190,142 +138,11 @@
   </entry>
   
   <entry>
-    <title>Clock Domain Crossing</title>
-    <link href="https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/"/>
-    <id>https://blog.honk.wang/posts/Clock-Domain-Crossing-Problem/</id>
-    <published>2020-03-16T16:31:34.000Z</published>
-    <updated>2021-08-11T05:38:16.954Z</updated>
-    
-    <summary type="html">
-    
-      跨时钟域问题分析 Clock-Domain-Crossing(CDC) Problem
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="design" scheme="https://blog.honk.wang/categories/ic/design/"/>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
-    
-      <category term="cdc" scheme="https://blog.honk.wang/tags/cdc/"/>
-    
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IC Design Flow</title>
-    <link href="https://blog.honk.wang/posts/IC-Design-Flow/"/>
-    <id>https://blog.honk.wang/posts/IC-Design-Flow/</id>
-    <published>2020-03-15T12:10:42.000Z</published>
-    <updated>2021-08-11T05:38:11.337Z</updated>
-    
-    <summary type="html">
-    
-      Background &amp; Design Flow
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="flow" scheme="https://blog.honk.wang/categories/ic/flow/"/>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Gvim-Verilog-Handbook</title>
-    <link href="https://blog.honk.wang/posts/Gvim-Verilog-HB/"/>
-    <id>https://blog.honk.wang/posts/Gvim-Verilog-HB/</id>
-    <published>2020-03-06T15:54:16.000Z</published>
-    <updated>2021-08-11T05:38:13.744Z</updated>
-    
-    <summary type="html">
-    
-      通过前篇配置好了用于写Verilog的Gvim编辑器。本文详细记录集成的各个功能的Gvim在windows下的使用。
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
-    
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
-    
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Gvim-Verilog-Env</title>
-    <link href="https://blog.honk.wang/posts/Gvim-Verilog-env/"/>
-    <id>https://blog.honk.wang/posts/Gvim-Verilog-env/</id>
-    <published>2020-02-23T11:19:27.000Z</published>
-    <updated>2021-08-11T05:38:15.581Z</updated>
-    
-    <summary type="html">
-    
-      根据网上的资料，在Windows下使用Gvim搭建一个适用于高效Verilog编程的环境，实现很多功能自动化。由于网上资料不全面，且不一定准确，因此记录使用到的所有功能及过程。
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="editor" scheme="https://blog.honk.wang/categories/ic/editor/"/>
-    
-    
-      <category term="vim" scheme="https://blog.honk.wang/tags/vim/"/>
-    
-      <category term="verilog" scheme="https://blog.honk.wang/tags/verilog/"/>
-    
-      <category term="gvim" scheme="https://blog.honk.wang/tags/gvim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Clock-Divider</title>
-    <link href="https://blog.honk.wang/posts/Clock-Divider/"/>
-    <id>https://blog.honk.wang/posts/Clock-Divider/</id>
-    <published>2019-12-15T16:14:13.000Z</published>
-    <updated>2021-08-11T05:38:17.973Z</updated>
-    
-    <summary type="html">
-    
-      分频时钟问题 Clock-Divider Problem
-    
-    </summary>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
-    
-      <category term="design" scheme="https://blog.honk.wang/categories/ic/design/"/>
-    
-    
-      <category term="ic" scheme="https://blog.honk.wang/tags/ic/"/>
-    
-      <category term="interview" scheme="https://blog.honk.wang/tags/interview/"/>
-    
-      <category term="clock divider" scheme="https://blog.honk.wang/tags/clock-divider/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo&amp;butterfly</title>
-    <link href="https://blog.honk.wang/posts/Hexo-And-Butterfly/"/>
-    <id>https://blog.honk.wang/posts/Hexo-And-Butterfly/</id>
+    <link href="https://blog.honk.wang/posts/hexo-and-butterfly/"/>
+    <id>https://blog.honk.wang/posts/hexo-and-butterfly/</id>
     <published>2019-11-10T07:10:42.000Z</published>
-    <updated>2021-08-11T05:38:19.054Z</updated>
+    <updated>2024-07-14T03:45:19.846Z</updated>
     
     <summary type="html">
     
@@ -345,10 +162,10 @@
   
   <entry>
     <title>hexo博客相关配置</title>
-    <link href="https://blog.honk.wang/posts/Hexo-Blog-Config/"/>
-    <id>https://blog.honk.wang/posts/Hexo-Blog-Config/</id>
+    <link href="https://blog.honk.wang/posts/hexo-blog-config/"/>
+    <id>https://blog.honk.wang/posts/hexo-blog-config/</id>
     <published>2019-11-08T16:00:00.000Z</published>
-    <updated>2021-08-11T05:38:19.849Z</updated>
+    <updated>2024-07-14T03:43:14.791Z</updated>
     
     <summary type="html">
     
