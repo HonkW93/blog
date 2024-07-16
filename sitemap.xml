@@ -228,20 +228,6 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/windows/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/software/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.honk.wang/tags/hexo/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -257,6 +243,20 @@
   
   <url>
     <loc>https://blog.honk.wang/tags/blog/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/windows/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/software/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -293,14 +293,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/tools/</loc>
+    <loc>https://blog.honk.wang/categories/hexo/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/hexo/</loc>
+    <loc>https://blog.honk.wang/categories/tools/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
