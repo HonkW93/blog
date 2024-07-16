@@ -221,21 +221,7 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/hexo/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/butterfly/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/blog/</loc>
+    <loc>https://blog.honk.wang/tags/vimscript/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -256,7 +242,21 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/vimscript/</loc>
+    <loc>https://blog.honk.wang/tags/hexo/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/butterfly/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/blog/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -293,14 +293,14 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/hexo/</loc>
+    <loc>https://blog.honk.wang/categories/tools/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/tools/</loc>
+    <loc>https://blog.honk.wang/categories/hexo/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
