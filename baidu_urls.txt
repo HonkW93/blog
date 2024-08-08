@@ -1,3 +1,4 @@
+https://blog.honk.wang/posts/8b10b/
 https://blog.honk.wang/posts/vimscript-automatic/
 https://blog.honk.wang/posts/windows-software/
 https://blog.honk.wang/posts/vim-adventure/
