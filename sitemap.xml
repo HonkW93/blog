@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.honk.wang/posts/8b10b/</loc>
     
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,7 +202,7 @@
 
   <url>
     <loc>https://blog.honk.wang/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -210,98 +210,98 @@
   
   <url>
     <loc>https://blog.honk.wang/tags/verilog/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/gvim/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/vim/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/vimscript/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/hexo/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/butterfly/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/blog/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/windows/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/software/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/8b10b/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/5b6b/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/3b4b/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/dc-balance/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/tags/cordic/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -310,42 +310,42 @@
   
   <url>
     <loc>https://blog.honk.wang/categories/ic/</loc>
-    <lastmod>2024-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/categories/ic/design/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/categories/hexo/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/categories/tools/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.honk.wang/categories/ic/design/serdes/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <lastmod>2024-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
