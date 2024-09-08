@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.honk.wang/"/>
-  <updated>2024-07-14T03:19:53.500Z</updated>
+  <updated>2024-09-03T15:08:06.871Z</updated>
   <id>https://blog.honk.wang/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>8b10b</title>
+    <link href="https://blog.honk.wang/posts/8b10b/"/>
+    <id>https://blog.honk.wang/posts/8b10b/</id>
+    <published>2024-07-28T11:07:06.000Z</published>
+    <updated>2024-09-03T15:08:06.871Z</updated>
+    
+    <summary type="html">
+    
+      8b10b编解码
+    
+    </summary>
+    
+    
+      <category term="ic" scheme="https://blog.honk.wang/categories/ic/"/>
+    
+      <category term="design" scheme="https://blog.honk.wang/categories/ic/design/"/>
+    
+      <category term="serdes" scheme="https://blog.honk.wang/categories/ic/design/serdes/"/>
+    
+    
+      <category term="dc balance" scheme="https://blog.honk.wang/tags/dc-balance/"/>
+    
+      <category term="8b10b" scheme="https://blog.honk.wang/tags/8b10b/"/>
+    
+      <category term="5b6b" scheme="https://blog.honk.wang/tags/5b6b/"/>
+    
+      <category term="3b4b" scheme="https://blog.honk.wang/tags/3b4b/"/>
+    
+  </entry>
   
   <entry>
     <title>Vimscript-AutoMatic-Verilog</title>
