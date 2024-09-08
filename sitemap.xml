@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.honk.wang/photo/gyakuten_saiban/index.html</loc>
+    <loc>https://blog.honk.wang/photo/index.html</loc>
     
     <lastmod>2024-09-08</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/photo/index.html</loc>
+    <loc>https://blog.honk.wang/photo/gyakuten_saiban/index.html</loc>
     
     <lastmod>2024-09-08</lastmod>
     
@@ -225,34 +225,6 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/tags/verilog/</loc>
-    <lastmod>2024-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/gvim/</loc>
-    <lastmod>2024-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/vim/</loc>
-    <lastmod>2024-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/tags/vimscript/</loc>
-    <lastmod>2024-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.honk.wang/tags/hexo/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -282,6 +254,34 @@
   
   <url>
     <loc>https://blog.honk.wang/tags/software/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/verilog/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/gvim/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/vim/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.honk.wang/tags/vimscript/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -325,6 +325,13 @@
   </url>
   
   <url>
+    <loc>https://blog.honk.wang/categories/hexo/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.honk.wang/categories/ic/design/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -332,7 +339,7 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
+    <loc>https://blog.honk.wang/categories/tools/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -346,14 +353,7 @@
   </url>
   
   <url>
-    <loc>https://blog.honk.wang/categories/hexo/</loc>
-    <lastmod>2024-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.honk.wang/categories/tools/</loc>
+    <loc>https://blog.honk.wang/categories/ic/editor/</loc>
     <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
