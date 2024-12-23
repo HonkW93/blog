@@ -3,6 +3,6 @@ https://blog.honk.wang/posts/vimscript-automatic/
 https://blog.honk.wang/posts/windows-software/
 https://blog.honk.wang/posts/vim-adventure/
 https://blog.honk.wang/posts/hexo-blog-construction/
-https://blog.honk.wang/posts/cordic-algorithm/
+https://blog.honk.wang/posts/cordic/
 https://blog.honk.wang/posts/hexo-and-butterfly/
 https://blog.honk.wang/posts/hexo-blog-config/

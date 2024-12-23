@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog.honk.wang/posts/8b10b/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <lastmod>2024-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.honk.wang/posts/cordic/</loc>
+    <lastmod>2024-12-23</lastmod>
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/hexo-blog-construction/</loc>
@@ -18,10 +22,6 @@
   </url>
   <url>
     <loc>https://blog.honk.wang/posts/hexo-blog-config/</loc>
-    <lastmod>2024-07-14</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.honk.wang/posts/cordic-algorithm/</loc>
     <lastmod>2024-07-14</lastmod>
   </url>
   <url>
