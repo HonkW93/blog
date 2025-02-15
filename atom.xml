@@ -98,15 +98,15 @@
   </entry>
   
   <entry>
-    <title>Vim-Adventure</title>
+    <title>vim-adventure</title>
     <link href="https://blog.honk.wang/posts/vim-adventure/"/>
     <id>https://blog.honk.wang/posts/vim-adventure/</id>
     <published>2020-05-30T12:07:39.000Z</published>
-    <updated>2024-07-16T14:58:59.323Z</updated>
+    <updated>2024-12-29T14:03:24.340Z</updated>
     
     <summary type="html">
     
-      Vim-Adventure是一个基于Vim的网页版游戏，通过游戏行为来锻炼Vim的一些基本操作。本文通过Vim-Adventure的关卡介绍Vim编辑器的基本操作
+      vim-adventure是一个基于vim的网页版游戏，通过游戏行为来锻炼vim的一些基本操作。本文通过vim-adventure的关卡介绍vim编辑器的基本操作
     
     </summary>
     
@@ -146,11 +146,11 @@
   </entry>
   
   <entry>
-    <title>Cordic</title>
+    <title>cordic</title>
     <link href="https://blog.honk.wang/posts/cordic/"/>
     <id>https://blog.honk.wang/posts/cordic/</id>
     <published>2020-03-24T14:56:47.000Z</published>
-    <updated>2024-12-23T14:33:05.196Z</updated>
+    <updated>2024-12-29T14:05:22.050Z</updated>
     
     <summary type="html">
     
